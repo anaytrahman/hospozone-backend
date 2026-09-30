@@ -1,0 +1,4231 @@
+{
+ "generatedOn": "2026-09-30",
+ "departments": [
+  {
+   "id": "DEP-01",
+   "slug": "cardiology",
+   "name": "Cardiology",
+   "icon": "heart-pulse",
+   "floor": "3rd Floor, Block A",
+   "shortDescription": "Heart care from prevention to complex interventions.",
+   "description": "Our Heart Institute brings together interventional cardiologists, cardiac surgeons and rehab specialists. We manage everything from blood pressure and cholesterol to angioplasty, pacemakers and heart-failure programmes with a 24×7 cath lab.",
+   "services": [
+    "ECG & Holter monitoring",
+    "2D Echo & Stress Test",
+    "Coronary Angiography",
+    "Angioplasty & Stenting",
+    "Pacemaker Implantation",
+    "Cardiac Rehabilitation"
+   ],
+   "facilities": [
+    "24×7 Cath Lab",
+    "12-bed Cardiac ICU",
+    "Non-invasive Cardiology Lab"
+   ],
+   "image": "cardiology",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-01"
+  },
+  {
+   "id": "DEP-02",
+   "slug": "neurology",
+   "name": "Neurology",
+   "icon": "activity",
+   "floor": "4th Floor, Block A",
+   "shortDescription": "Brain, spine and nerve disorders under one roof.",
+   "description": "The Neurosciences team treats stroke, epilepsy, migraine, Parkinson's disease and neuropathies. A dedicated stroke-ready pathway ensures clot-busting treatment within the golden hour.",
+   "services": [
+    "Stroke Care",
+    "EEG & EMG/NCV",
+    "Epilepsy Clinic",
+    "Headache & Migraine Clinic",
+    "Movement Disorder Clinic",
+    "Memory Clinic"
+   ],
+   "facilities": [
+    "Neuro ICU",
+    "Video EEG Suite",
+    "3T MRI access"
+   ],
+   "image": "neurology",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-02"
+  },
+  {
+   "id": "DEP-03",
+   "slug": "orthopedics",
+   "name": "Orthopedics",
+   "icon": "person-walking",
+   "floor": "2nd Floor, Block B",
+   "shortDescription": "Joints, bones, sports injuries and spine care.",
+   "description": "From fractures to robotic-assisted joint replacement, our orthopaedic surgeons and physiotherapists work together to get you moving again — safely and quickly.",
+   "services": [
+    "Knee & Hip Replacement",
+    "Arthroscopy",
+    "Sports Injury Clinic",
+    "Fracture Management",
+    "Spine Clinic",
+    "Physiotherapy"
+   ],
+   "facilities": [
+    "Modular Laminar-flow OTs",
+    "Physiotherapy Gym",
+    "Digital X-ray"
+   ],
+   "image": "orthopedics",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-03"
+  },
+  {
+   "id": "DEP-04",
+   "slug": "pediatrics",
+   "name": "Pediatrics",
+   "icon": "balloon-heart",
+   "floor": "1st Floor, Block C",
+   "shortDescription": "Child-friendly care from newborns to teens.",
+   "description": "Our paediatricians provide well-baby visits, vaccinations, developmental assessments and a Level-III NICU for premature and critically ill newborns.",
+   "services": [
+    "Well-baby Clinic",
+    "Vaccination",
+    "Growth & Development",
+    "Pediatric Asthma Clinic",
+    "Neonatal Care",
+    "Adolescent Health"
+   ],
+   "facilities": [
+    "Level-III NICU",
+    "PICU",
+    "Play Area & Feeding Room"
+   ],
+   "image": "pediatrics",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-04"
+  },
+  {
+   "id": "DEP-05",
+   "slug": "gynecology",
+   "name": "Gynecology & Obstetrics",
+   "icon": "gender-female",
+   "floor": "1st Floor, Block B",
+   "shortDescription": "Pregnancy, fertility and women's health.",
+   "description": "Comprehensive women's health — antenatal care, high-risk pregnancy, painless delivery, laparoscopic gynae surgery and menopause clinics in a warm, private setting.",
+   "services": [
+    "Antenatal Care",
+    "High-risk Pregnancy",
+    "Painless Delivery",
+    "Laparoscopic Surgery",
+    "PCOS Clinic",
+    "Menopause Clinic"
+   ],
+   "facilities": [
+    "Labour, Delivery & Recovery Suites",
+    "Fetal Medicine Unit",
+    "Lactation Support"
+   ],
+   "image": "gynecology",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-05"
+  },
+  {
+   "id": "DEP-06",
+   "slug": "dermatology",
+   "name": "Dermatology",
+   "icon": "droplet-half",
+   "floor": "Ground Floor, Block C",
+   "shortDescription": "Skin, hair and nail treatments backed by science.",
+   "description": "Medical and aesthetic dermatology for acne, eczema, psoriasis, pigmentation and hair loss, including laser and procedure rooms.",
+   "services": [
+    "Acne & Scar Treatment",
+    "Psoriasis & Eczema Care",
+    "Hair Loss Clinic",
+    "Laser Procedures",
+    "Allergy Patch Testing",
+    "Skin Biopsy"
+   ],
+   "facilities": [
+    "Laser Suite",
+    "Phototherapy Unit"
+   ],
+   "image": "dermatology",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-06"
+  },
+  {
+   "id": "DEP-07",
+   "slug": "ent",
+   "name": "ENT",
+   "icon": "ear",
+   "floor": "Ground Floor, Block A",
+   "shortDescription": "Ear, nose, throat and hearing care.",
+   "description": "Endoscopic sinus surgery, hearing assessments, voice clinic and paediatric ENT — delivered with modern endoscopy and audiology equipment.",
+   "services": [
+    "Sinus Surgery (FESS)",
+    "Audiometry",
+    "Tonsil & Adenoid Surgery",
+    "Vertigo Clinic",
+    "Voice Clinic",
+    "Hearing Aid Fitting"
+   ],
+   "facilities": [
+    "Sound-treated Audiology Room",
+    "ENT Endoscopy Suite"
+   ],
+   "image": "ent",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-07"
+  },
+  {
+   "id": "DEP-08",
+   "slug": "general-medicine",
+   "name": "General Medicine",
+   "icon": "clipboard2-pulse",
+   "floor": "Ground Floor, Block B",
+   "shortDescription": "Your first stop for fevers, diabetes and more.",
+   "description": "Internal medicine specialists manage fevers, infections, diabetes, thyroid, hypertension and preventive health checks, coordinating referrals when you need a super-specialist.",
+   "services": [
+    "Fever & Infection Clinic",
+    "Diabetes Clinic",
+    "Thyroid Clinic",
+    "Hypertension Clinic",
+    "Preventive Health Checks",
+    "Vaccination (Adult)"
+   ],
+   "facilities": [
+    "Day-care Ward",
+    "Health Check Lounge"
+   ],
+   "image": "general-medicine",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-08"
+  },
+  {
+   "id": "DEP-09",
+   "slug": "dentistry",
+   "name": "Dentistry",
+   "icon": "emoji-smile",
+   "floor": "2nd Floor, Block C",
+   "shortDescription": "Healthy smiles for the whole family.",
+   "description": "General, cosmetic and surgical dentistry — root canals, implants, aligners and children's dentistry in sterile, modern dental chairs.",
+   "services": [
+    "Root Canal Treatment",
+    "Dental Implants",
+    "Clear Aligners",
+    "Scaling & Polishing",
+    "Tooth Extraction",
+    "Pediatric Dentistry"
+   ],
+   "facilities": [
+    "Digital OPG X-ray",
+    "6 Dental Chairs"
+   ],
+   "image": "dentistry",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-09"
+  },
+  {
+   "id": "DEP-10",
+   "slug": "radiology",
+   "name": "Radiology",
+   "icon": "radioactive",
+   "floor": "Basement 1",
+   "shortDescription": "Accurate imaging, fast reports.",
+   "description": "CT, MRI, ultrasound, mammography and digital X-ray with same-day reporting by experienced radiologists.",
+   "services": [
+    "MRI (3 Tesla)",
+    "128-slice CT",
+    "Ultrasound & Doppler",
+    "Digital Mammography",
+    "Digital X-ray",
+    "Image-guided Biopsy"
+   ],
+   "facilities": [
+    "PACS reporting",
+    "Contrast Safety Room"
+   ],
+   "image": "radiology",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-10"
+  },
+  {
+   "id": "DEP-11",
+   "slug": "emergency",
+   "name": "Emergency & Trauma",
+   "icon": "truck-front",
+   "floor": "Ground Floor, Emergency Wing",
+   "shortDescription": "24×7 emergency, trauma and ambulance services.",
+   "description": "A 20-bed emergency department staffed round the clock by emergency physicians, with triage, resuscitation bays, and advanced life-support ambulances.",
+   "services": [
+    "24×7 Triage",
+    "Trauma Care",
+    "Cardiac & Stroke Emergencies",
+    "Poison Management",
+    "ALS Ambulance",
+    "Minor Procedures"
+   ],
+   "facilities": [
+    "Resuscitation Bays",
+    "Point-of-care Lab",
+    "Helipad Access"
+   ],
+   "image": "emergency",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-11"
+  },
+  {
+   "id": "DEP-12",
+   "slug": "general-surgery",
+   "name": "General Surgery",
+   "icon": "bandaid",
+   "floor": "3rd Floor, Block B",
+   "shortDescription": "Minimally invasive and laparoscopic surgery.",
+   "description": "Laparoscopic gall-bladder, hernia, appendix and bariatric procedures with enhanced recovery protocols for shorter hospital stays.",
+   "services": [
+    "Laparoscopic Cholecystectomy",
+    "Hernia Repair",
+    "Appendectomy",
+    "Bariatric Surgery",
+    "Breast Surgery",
+    "Day-care Procedures"
+   ],
+   "facilities": [
+    "4 Modular OTs",
+    "Post-op Recovery Unit"
+   ],
+   "image": "general-surgery",
+   "status": "Active",
+   "createdAt": "2025-08-26T09:30:00",
+   "headDoctorId": "DOC-12"
+  }
+ ],
+ "doctors": [
+  {
+   "id": "DOC-01",
+   "name": "Dr. Arjun Mehta",
+   "gender": "Male",
+   "qualification": "MBBS, MD (Medicine), DM (Cardiology)",
+   "specialization": "Interventional Cardiologist",
+   "departmentId": "DEP-01",
+   "experienceYears": 18,
+   "consultationFee": 1200,
+   "availableDays": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "startTime": "09:00",
+   "endTime": "14:00",
+   "slotMinutes": 20,
+   "room": "A-301",
+   "about": "Dr. Mehta has performed over 4,000 angioplasties and leads the hospital's primary-PCI programme for heart attacks. He is passionate about preventive cardiology and patient education.",
+   "education": [
+    {
+     "degree": "DM Cardiology",
+     "institute": "AIIMS, New Delhi",
+     "year": 2009
+    },
+    {
+     "degree": "MD General Medicine",
+     "institute": "Maulana Azad Medical College",
+     "year": 2005
+    },
+    {
+     "degree": "MBBS",
+     "institute": "KGMU, Lucknow",
+     "year": 2001
+    }
+   ],
+   "experience": [
+    {
+     "role": "Senior Consultant & Head",
+     "place": "Hospozone Heart Institute",
+     "years": "2016 – Present"
+    },
+    {
+     "role": "Consultant Cardiologist",
+     "place": "Fortis Escorts, Delhi",
+     "years": "2010 – 2016"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Punjabi"
+   ],
+   "rating": 4.9,
+   "phone": "+91 98014 51666",
+   "email": "dr.arjun@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-02",
+   "name": "Dr. Kavya Iyer",
+   "gender": "Female",
+   "qualification": "MBBS, MD, DM (Neurology)",
+   "specialization": "Neurologist — Stroke & Epilepsy",
+   "departmentId": "DEP-02",
+   "experienceYears": 14,
+   "consultationFee": 1000,
+   "availableDays": [
+    "Mon",
+    "Tue",
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "startTime": "10:00",
+   "endTime": "16:00",
+   "slotMinutes": 20,
+   "room": "A-405",
+   "about": "Dr. Iyer heads the stroke-ready pathway and epilepsy clinic. She has trained in video-EEG monitoring and believes in shared decision-making with families.",
+   "education": [
+    {
+     "degree": "DM Neurology",
+     "institute": "NIMHANS, Bengaluru",
+     "year": 2012
+    },
+    {
+     "degree": "MD Medicine",
+     "institute": "Madras Medical College",
+     "year": 2008
+    }
+   ],
+   "experience": [
+    {
+     "role": "Consultant Neurologist",
+     "place": "Hospozone Hospital",
+     "years": "2017 – Present"
+    },
+    {
+     "role": "Assistant Professor",
+     "place": "NIMHANS",
+     "years": "2012 – 2017"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Tamil"
+   ],
+   "rating": 4.8,
+   "phone": "+91 98024 51518",
+   "email": "dr.kavya@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/women/44.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-03",
+   "name": "Dr. Rohan Kapoor",
+   "gender": "Male",
+   "qualification": "MBBS, MS (Ortho), Fellowship in Arthroplasty",
+   "specialization": "Orthopedic & Joint Replacement Surgeon",
+   "departmentId": "DEP-03",
+   "experienceYears": 16,
+   "consultationFee": 900,
+   "availableDays": [
+    "Mon",
+    "Wed",
+    "Fri",
+    "Sat"
+   ],
+   "startTime": "09:30",
+   "endTime": "15:30",
+   "slotMinutes": 20,
+   "room": "B-210",
+   "about": "Specialist in robotic-assisted knee and hip replacements and arthroscopic sports surgery. He has helped hundreds of patients walk pain-free again.",
+   "education": [
+    {
+     "degree": "Fellowship Arthroplasty",
+     "institute": "Royal National Orthopaedic Hospital, UK",
+     "year": 2011
+    },
+    {
+     "degree": "MS Orthopaedics",
+     "institute": "PGIMER Chandigarh",
+     "year": 2008
+    }
+   ],
+   "experience": [
+    {
+     "role": "Senior Consultant",
+     "place": "Hospozone Hospital",
+     "years": "2015 – Present"
+    },
+    {
+     "role": "Consultant",
+     "place": "Max Hospital, Saket",
+     "years": "2011 – 2015"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "rating": 4.7,
+   "phone": "+91 98034 51592",
+   "email": "dr.rohan@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/men/45.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-04",
+   "name": "Dr. Sneha Reddy",
+   "gender": "Female",
+   "qualification": "MBBS, MD (Pediatrics), Fellowship Neonatology",
+   "specialization": "Pediatrician & Neonatologist",
+   "departmentId": "DEP-04",
+   "experienceYears": 11,
+   "consultationFee": 700,
+   "availableDays": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "startTime": "10:00",
+   "endTime": "17:00",
+   "slotMinutes": 20,
+   "room": "C-104",
+   "about": "Dr. Reddy runs the well-baby and vaccination clinics and supervises the NICU. Parents love her calm, reassuring approach.",
+   "education": [
+    {
+     "degree": "Fellowship Neonatology",
+     "institute": "Rainbow Children's Hospital",
+     "year": 2015
+    },
+    {
+     "degree": "MD Pediatrics",
+     "institute": "Osmania Medical College",
+     "year": 2013
+    }
+   ],
+   "experience": [
+    {
+     "role": "Consultant Pediatrician",
+     "place": "Hospozone Hospital",
+     "years": "2016 – Present"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Telugu"
+   ],
+   "rating": 4.9,
+   "phone": "+91 98044 51407",
+   "email": "dr.sneha@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/women/65.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-05",
+   "name": "Dr. Farah Khan",
+   "gender": "Female",
+   "qualification": "MBBS, MS (OBG), DNB",
+   "specialization": "Obstetrician & Gynecologist",
+   "departmentId": "DEP-05",
+   "experienceYears": 15,
+   "consultationFee": 900,
+   "availableDays": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Sat"
+   ],
+   "startTime": "11:00",
+   "endTime": "17:00",
+   "slotMinutes": 20,
+   "room": "B-112",
+   "about": "Dr. Khan specialises in high-risk pregnancy and laparoscopic gynae surgery, with a strong focus on natural and painless childbirth.",
+   "education": [
+    {
+     "degree": "DNB Obstetrics & Gynaecology",
+     "institute": "National Board, New Delhi",
+     "year": 2011
+    },
+    {
+     "degree": "MS OBG",
+     "institute": "Aligarh Muslim University",
+     "year": 2009
+    }
+   ],
+   "experience": [
+    {
+     "role": "Senior Consultant",
+     "place": "Hospozone Hospital",
+     "years": "2014 – Present"
+    },
+    {
+     "role": "Registrar",
+     "place": "Cloudnine Hospital",
+     "years": "2011 – 2014"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Urdu"
+   ],
+   "rating": 4.8,
+   "phone": "+91 98054 51555",
+   "email": "dr.farah@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/women/68.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-06",
+   "name": "Dr. Nikhil Bansal",
+   "gender": "Male",
+   "qualification": "MBBS, MD (Dermatology)",
+   "specialization": "Dermatologist & Cosmetologist",
+   "departmentId": "DEP-06",
+   "experienceYears": 9,
+   "consultationFee": 800,
+   "availableDays": [
+    "Mon",
+    "Wed",
+    "Thu",
+    "Sat"
+   ],
+   "startTime": "12:00",
+   "endTime": "18:00",
+   "slotMinutes": 20,
+   "room": "C-012",
+   "about": "Dr. Bansal treats chronic skin conditions and performs laser and aesthetic procedures, with an evidence-first philosophy.",
+   "education": [
+    {
+     "degree": "MD Dermatology",
+     "institute": "Lady Hardinge Medical College",
+     "year": 2016
+    }
+   ],
+   "experience": [
+    {
+     "role": "Consultant Dermatologist",
+     "place": "Hospozone Hospital",
+     "years": "2019 – Present"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "rating": 4.6,
+   "phone": "+91 98064 51333",
+   "email": "dr.nikhil@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/men/22.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-07",
+   "name": "Dr. Priya Nair",
+   "gender": "Female",
+   "qualification": "MBBS, MS (ENT)",
+   "specialization": "ENT & Head-Neck Surgeon",
+   "departmentId": "DEP-07",
+   "experienceYears": 12,
+   "consultationFee": 750,
+   "availableDays": [
+    "Tue",
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "startTime": "09:00",
+   "endTime": "13:00",
+   "slotMinutes": 20,
+   "room": "A-018",
+   "about": "Expert in endoscopic sinus surgery and pediatric ENT. Dr. Nair also runs the vertigo clinic.",
+   "education": [
+    {
+     "degree": "MS ENT",
+     "institute": "Government Medical College, Thiruvananthapuram",
+     "year": 2013
+    }
+   ],
+   "experience": [
+    {
+     "role": "Consultant ENT Surgeon",
+     "place": "Hospozone Hospital",
+     "years": "2018 – Present"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Malayalam"
+   ],
+   "rating": 4.7,
+   "phone": "+91 98074 51444",
+   "email": "dr.priya@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/women/12.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-08",
+   "name": "Dr. Imran Qureshi",
+   "gender": "Male",
+   "qualification": "MBBS, MD (Internal Medicine)",
+   "specialization": "Consultant Physician",
+   "departmentId": "DEP-08",
+   "experienceYears": 20,
+   "consultationFee": 600,
+   "availableDays": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "startTime": "09:00",
+   "endTime": "17:00",
+   "slotMinutes": 20,
+   "room": "B-005",
+   "about": "With two decades in internal medicine, Dr. Qureshi manages complex fevers, diabetes and hypertension and is known for thorough, unhurried consultations.",
+   "education": [
+    {
+     "degree": "MD Internal Medicine",
+     "institute": "Jawaharlal Nehru Medical College, Aligarh",
+     "year": 2005
+    }
+   ],
+   "experience": [
+    {
+     "role": "Head – Internal Medicine",
+     "place": "Hospozone Hospital",
+     "years": "2013 – Present"
+    },
+    {
+     "role": "Consultant",
+     "place": "Paras Hospital",
+     "years": "2006 – 2013"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Urdu"
+   ],
+   "rating": 4.8,
+   "phone": "+91 98084 51740",
+   "email": "dr.imran@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/men/52.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-09",
+   "name": "Dr. Ananya Das",
+   "gender": "Female",
+   "qualification": "BDS, MDS (Endodontics)",
+   "specialization": "Dental Surgeon & Endodontist",
+   "departmentId": "DEP-09",
+   "experienceYears": 8,
+   "consultationFee": 500,
+   "availableDays": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Fri",
+    "Sat"
+   ],
+   "startTime": "10:00",
+   "endTime": "18:00",
+   "slotMinutes": 20,
+   "room": "C-220",
+   "about": "Dr. Das performs painless root canals and smile makeovers, and runs the kids' dentistry clinic on Saturdays.",
+   "education": [
+    {
+     "degree": "MDS Conservative Dentistry",
+     "institute": "Manipal College of Dental Sciences",
+     "year": 2017
+    }
+   ],
+   "experience": [
+    {
+     "role": "Consultant Dentist",
+     "place": "Hospozone Hospital",
+     "years": "2019 – Present"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Bengali"
+   ],
+   "rating": 4.7,
+   "phone": "+91 98094 51296",
+   "email": "dr.ananya@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/women/29.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-10",
+   "name": "Dr. Vikram Singh",
+   "gender": "Male",
+   "qualification": "MBBS, MD (Radiodiagnosis)",
+   "specialization": "Consultant Radiologist",
+   "departmentId": "DEP-10",
+   "experienceYears": 13,
+   "consultationFee": 650,
+   "availableDays": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri"
+   ],
+   "startTime": "08:00",
+   "endTime": "14:00",
+   "slotMinutes": 20,
+   "room": "B1-02",
+   "about": "Dr. Singh leads imaging services and specialises in musculoskeletal MRI and image-guided biopsies.",
+   "education": [
+    {
+     "degree": "MD Radiodiagnosis",
+     "institute": "SMS Medical College, Jaipur",
+     "year": 2012
+    }
+   ],
+   "experience": [
+    {
+     "role": "Head – Radiology",
+     "place": "Hospozone Hospital",
+     "years": "2016 – Present"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Rajasthani"
+   ],
+   "rating": 4.6,
+   "phone": "+91 98104 51481",
+   "email": "dr.vikram@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/men/61.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-11",
+   "name": "Dr. Suresh Menon",
+   "gender": "Male",
+   "qualification": "MBBS, MEM (Emergency Medicine)",
+   "specialization": "Emergency Physician",
+   "departmentId": "DEP-11",
+   "experienceYears": 17,
+   "consultationFee": 800,
+   "availableDays": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat",
+    "Sun"
+   ],
+   "startTime": "08:00",
+   "endTime": "20:00",
+   "slotMinutes": 20,
+   "room": "ER-01",
+   "about": "Dr. Menon heads the 24×7 emergency department and trains staff in advanced trauma and cardiac life support.",
+   "education": [
+    {
+     "degree": "MEM Emergency Medicine",
+     "institute": "George Washington University (Indian programme)",
+     "year": 2010
+    }
+   ],
+   "experience": [
+    {
+     "role": "Head – Emergency",
+     "place": "Hospozone Hospital",
+     "years": "2014 – Present"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Malayalam"
+   ],
+   "rating": 4.8,
+   "phone": "+91 98114 51629",
+   "email": "dr.suresh@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/men/76.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-12",
+   "name": "Dr. Meera Joshi",
+   "gender": "Female",
+   "qualification": "MBBS, MS (General Surgery), FMAS",
+   "specialization": "Laparoscopic Surgeon",
+   "departmentId": "DEP-12",
+   "experienceYears": 14,
+   "consultationFee": 900,
+   "availableDays": [
+    "Mon",
+    "Tue",
+    "Thu",
+    "Fri"
+   ],
+   "startTime": "10:00",
+   "endTime": "15:00",
+   "slotMinutes": 20,
+   "room": "B-318",
+   "about": "Dr. Joshi performs advanced laparoscopic and day-care surgeries with enhanced-recovery protocols so patients go home sooner.",
+   "education": [
+    {
+     "degree": "FMAS",
+     "institute": "Association of Minimal Access Surgeons of India",
+     "year": 2013
+    },
+    {
+     "degree": "MS General Surgery",
+     "institute": "BJ Medical College, Pune",
+     "year": 2011
+    }
+   ],
+   "experience": [
+    {
+     "role": "Senior Consultant",
+     "place": "Hospozone Hospital",
+     "years": "2015 – Present"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Marathi"
+   ],
+   "rating": 4.7,
+   "phone": "+91 98124 51518",
+   "email": "dr.meera@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/women/50.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-13",
+   "name": "Dr. Aditya Rao",
+   "gender": "Male",
+   "qualification": "MBBS, MD, DNB (Cardiology)",
+   "specialization": "Clinical Cardiologist",
+   "departmentId": "DEP-01",
+   "experienceYears": 8,
+   "consultationFee": 900,
+   "availableDays": [
+    "Tue",
+    "Wed",
+    "Thu",
+    "Sat"
+   ],
+   "startTime": "14:00",
+   "endTime": "19:00",
+   "slotMinutes": 20,
+   "room": "A-306",
+   "about": "Focuses on hypertension, heart failure and cardiac imaging. Runs the evening cardiology clinic for working professionals.",
+   "education": [
+    {
+     "degree": "DNB Cardiology",
+     "institute": "Narayana Health, Bengaluru",
+     "year": 2018
+    }
+   ],
+   "experience": [
+    {
+     "role": "Consultant Cardiologist",
+     "place": "Hospozone Heart Institute",
+     "years": "2019 – Present"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi",
+    "Kannada"
+   ],
+   "rating": 4.6,
+   "phone": "+91 98134 51296",
+   "email": "dr.aditya@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/men/11.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  },
+  {
+   "id": "DOC-14",
+   "name": "Dr. Pooja Saxena",
+   "gender": "Female",
+   "qualification": "MBBS, MD (Medicine), Fellowship in Diabetology",
+   "specialization": "Diabetologist & Physician",
+   "departmentId": "DEP-08",
+   "experienceYears": 10,
+   "consultationFee": 700,
+   "availableDays": [
+    "Mon",
+    "Wed",
+    "Fri",
+    "Sat"
+   ],
+   "startTime": "15:00",
+   "endTime": "20:00",
+   "slotMinutes": 20,
+   "room": "B-008",
+   "about": "Dr. Saxena runs the diabetes & thyroid clinic, with structured education programmes for newly diagnosed patients.",
+   "education": [
+    {
+     "degree": "Fellowship Diabetology",
+     "institute": "Dr. Mohan's Diabetes Education Academy",
+     "year": 2016
+    },
+    {
+     "degree": "MD Medicine",
+     "institute": "GSVM Kanpur",
+     "year": 2014
+    }
+   ],
+   "experience": [
+    {
+     "role": "Consultant Physician",
+     "place": "Hospozone Hospital",
+     "years": "2017 – Present"
+    }
+   ],
+   "languages": [
+    "English",
+    "Hindi"
+   ],
+   "rating": 4.7,
+   "phone": "+91 98144 51370",
+   "email": "dr.pooja@hospozone.in",
+   "photo": "https://randomuser.me/api/portraits/women/33.jpg",
+   "status": "Active",
+   "acceptingAppointments": true,
+   "createdAt": "2025-09-15T09:30:00"
+  }
+ ],
+ "patients": [
+  {
+   "id": "PAT-1001",
+   "name": "Aarav Sharma",
+   "gender": "Male",
+   "dob": "1989-04-12",
+   "bloodGroup": "B+",
+   "city": "Noida",
+   "phone": "+91 9810000000",
+   "email": "aarav.sharma@gmail.com",
+   "address": "100, Sector 62, Noida",
+   "emergencyContact": {
+    "name": "Neha Sharma",
+    "relation": "Spouse",
+    "phone": "+91 8920000000"
+   },
+   "allergies": [
+    "Penicillin"
+   ],
+   "chronicConditions": [
+    "Hypertension"
+   ],
+   "heightCm": 168,
+   "weightKg": 64,
+   "status": "Active",
+   "createdAt": "2026-04-13T09:30:00"
+  },
+  {
+   "id": "PAT-1002",
+   "name": "Diya Patel",
+   "gender": "Female",
+   "dob": "1994-09-02",
+   "bloodGroup": "O+",
+   "city": "Ahmedabad",
+   "phone": "+91 9810734129",
+   "email": "diya.patel@gmail.com",
+   "address": "107, MG Road, Ahmedabad",
+   "emergencyContact": {
+    "name": "Kiran Patel",
+    "relation": "Father",
+    "phone": "+91 8920051277"
+   },
+   "allergies": [],
+   "chronicConditions": [],
+   "heightCm": 155,
+   "weightKg": 53,
+   "status": "Active",
+   "createdAt": "2026-04-20T09:30:00"
+  },
+  {
+   "id": "PAT-1003",
+   "name": "Vihaan Gupta",
+   "gender": "Male",
+   "dob": "1978-01-25",
+   "bloodGroup": "A+",
+   "city": "Ghaziabad",
+   "phone": "+91 9811468258",
+   "email": "vihaan.gupta@gmail.com",
+   "address": "114, Park Street, Ghaziabad",
+   "emergencyContact": {
+    "name": "Ritu Gupta",
+    "relation": "Spouse",
+    "phone": "+91 8920102554"
+   },
+   "allergies": [],
+   "chronicConditions": [
+    "Type 2 Diabetes"
+   ],
+   "heightCm": 170,
+   "weightKg": 66,
+   "status": "Active",
+   "createdAt": "2026-04-27T09:30:00"
+  },
+  {
+   "id": "PAT-1004",
+   "name": "Ananya Singh",
+   "gender": "Female",
+   "dob": "2001-06-18",
+   "bloodGroup": "AB+",
+   "city": "Delhi",
+   "phone": "+91 9812202387",
+   "email": "ananya.singh@gmail.com",
+   "address": "121, Civil Lines, Delhi",
+   "emergencyContact": {
+    "name": "Rakesh Singh",
+    "relation": "Father",
+    "phone": "+91 8920153831"
+   },
+   "allergies": [
+    "Dust"
+   ],
+   "chronicConditions": [
+    "Asthma"
+   ],
+   "heightCm": 157,
+   "weightKg": 55,
+   "status": "Active",
+   "createdAt": "2026-05-04T09:30:00"
+  },
+  {
+   "id": "PAT-1005",
+   "name": "Mohammed Faizan",
+   "gender": "Male",
+   "dob": "1985-11-30",
+   "bloodGroup": "O-",
+   "city": "Lucknow",
+   "phone": "+91 9812936516",
+   "email": "mohammed.faizan@gmail.com",
+   "address": "128, Banjara Hills, Lucknow",
+   "emergencyContact": {
+    "name": "Sana Faizan",
+    "relation": "Spouse",
+    "phone": "+91 8920205108"
+   },
+   "allergies": [],
+   "chronicConditions": [],
+   "heightCm": 172,
+   "weightKg": 68,
+   "status": "Active",
+   "createdAt": "2026-05-11T09:30:00"
+  },
+  {
+   "id": "PAT-1006",
+   "name": "Ishita Bose",
+   "gender": "Female",
+   "dob": "1992-03-08",
+   "bloodGroup": "B-",
+   "city": "Kolkata",
+   "phone": "+91 9813670645",
+   "email": "ishita.bose@gmail.com",
+   "address": "135, Koregaon Park, Kolkata",
+   "emergencyContact": {
+    "name": "Arnab Bose",
+    "relation": "Brother",
+    "phone": "+91 8920256385"
+   },
+   "allergies": [
+    "Sulfa drugs"
+   ],
+   "chronicConditions": [
+    "Hypothyroidism"
+   ],
+   "heightCm": 159,
+   "weightKg": 57,
+   "status": "Active",
+   "createdAt": "2026-05-18T09:30:00"
+  },
+  {
+   "id": "PAT-1007",
+   "name": "Kabir Malhotra",
+   "gender": "Male",
+   "dob": "1968-07-21",
+   "bloodGroup": "A-",
+   "city": "Gurugram",
+   "phone": "+91 9814404774",
+   "email": "kabir.malhotra@gmail.com",
+   "address": "142, Salt Lake, Gurugram",
+   "emergencyContact": {
+    "name": "Anjali Malhotra",
+    "relation": "Spouse",
+    "phone": "+91 8920307662"
+   },
+   "allergies": [],
+   "chronicConditions": [
+    "Coronary Artery Disease",
+    "Hyperlipidemia"
+   ],
+   "heightCm": 174,
+   "weightKg": 70,
+   "status": "Active",
+   "createdAt": "2026-05-25T09:30:00"
+  },
+  {
+   "id": "PAT-1008",
+   "name": "Saanvi Reddy",
+   "gender": "Female",
+   "dob": "2018-02-14",
+   "bloodGroup": "O+",
+   "city": "Hyderabad",
+   "phone": "+91 9815138903",
+   "email": "saanvi.reddy@gmail.com",
+   "address": "149, Indiranagar, Hyderabad",
+   "emergencyContact": {
+    "name": "Sneha Reddy",
+    "relation": "Mother",
+    "phone": "+91 8920358939"
+   },
+   "allergies": [
+    "Peanuts"
+   ],
+   "chronicConditions": [],
+   "heightCm": 161,
+   "weightKg": 59,
+   "status": "Active",
+   "createdAt": "2026-06-01T09:30:00"
+  },
+  {
+   "id": "PAT-1009",
+   "name": "Reyansh Joshi",
+   "gender": "Male",
+   "dob": "1999-12-05",
+   "bloodGroup": "B+",
+   "city": "Pune",
+   "phone": "+91 9815873032",
+   "email": "reyansh.joshi@gmail.com",
+   "address": "156, Gomti Nagar, Pune",
+   "emergencyContact": {
+    "name": "Suresh Joshi",
+    "relation": "Father",
+    "phone": "+91 8920410216"
+   },
+   "allergies": [],
+   "chronicConditions": [],
+   "heightCm": 176,
+   "weightKg": 72,
+   "status": "Active",
+   "createdAt": "2026-06-08T09:30:00"
+  },
+  {
+   "id": "PAT-1010",
+   "name": "Meera Nair",
+   "gender": "Female",
+   "dob": "1975-05-27",
+   "bloodGroup": "A+",
+   "city": "Kochi",
+   "phone": "+91 9816607161",
+   "email": "meera.nair@gmail.com",
+   "address": "163, Vaishali Nagar, Kochi",
+   "emergencyContact": {
+    "name": "Vinod Nair",
+    "relation": "Spouse",
+    "phone": "+91 8920461493"
+   },
+   "allergies": [],
+   "chronicConditions": [
+    "Osteoarthritis"
+   ],
+   "heightCm": 163,
+   "weightKg": 61,
+   "status": "Active",
+   "createdAt": "2026-06-15T09:30:00"
+  },
+  {
+   "id": "PAT-1011",
+   "name": "Arjun Verma",
+   "gender": "Male",
+   "dob": "1990-08-16",
+   "bloodGroup": "AB-",
+   "city": "Noida",
+   "phone": "+91 9817341290",
+   "email": "arjun.verma@gmail.com",
+   "address": "170, Anna Nagar, Noida",
+   "emergencyContact": {
+    "name": "Pooja Verma",
+    "relation": "Spouse",
+    "phone": "+91 8920512770"
+   },
+   "allergies": [],
+   "chronicConditions": [],
+   "heightCm": 178,
+   "weightKg": 74,
+   "status": "Active",
+   "createdAt": "2026-06-22T09:30:00"
+  },
+  {
+   "id": "PAT-1012",
+   "name": "Kiara Kapoor",
+   "gender": "Female",
+   "dob": "1996-10-10",
+   "bloodGroup": "O+",
+   "city": "Delhi",
+   "phone": "+91 9818075419",
+   "email": "kiara.kapoor@gmail.com",
+   "address": "177, Sector 62, Delhi",
+   "emergencyContact": {
+    "name": "Raj Kapoor",
+    "relation": "Father",
+    "phone": "+91 8920564047"
+   },
+   "allergies": [
+    "Latex"
+   ],
+   "chronicConditions": [
+    "PCOS"
+   ],
+   "heightCm": 155,
+   "weightKg": 63,
+   "status": "Active",
+   "createdAt": "2026-06-29T09:30:00"
+  },
+  {
+   "id": "PAT-1013",
+   "name": "Rudra Chatterjee",
+   "gender": "Male",
+   "dob": "1958-03-03",
+   "bloodGroup": "B+",
+   "city": "Kolkata",
+   "phone": "+91 9818809548",
+   "email": "rudra.chatterjee@gmail.com",
+   "address": "184, MG Road, Kolkata",
+   "emergencyContact": {
+    "name": "Mitali Chatterjee",
+    "relation": "Daughter",
+    "phone": "+91 8920615324"
+   },
+   "allergies": [],
+   "chronicConditions": [
+    "COPD",
+    "Hypertension"
+   ],
+   "heightCm": 168,
+   "weightKg": 76,
+   "status": "Active",
+   "createdAt": "2026-07-06T09:30:00"
+  },
+  {
+   "id": "PAT-1014",
+   "name": "Aditi Kulkarni",
+   "gender": "Female",
+   "dob": "1987-01-19",
+   "bloodGroup": "A+",
+   "city": "Mumbai",
+   "phone": "+91 9819543677",
+   "email": "aditi.kulkarni@gmail.com",
+   "address": "191, Park Street, Mumbai",
+   "emergencyContact": {
+    "name": "Nikhil Kulkarni",
+    "relation": "Spouse",
+    "phone": "+91 8920666601"
+   },
+   "allergies": [],
+   "chronicConditions": [],
+   "heightCm": 157,
+   "weightKg": 65,
+   "status": "Active",
+   "createdAt": "2026-07-13T09:30:00"
+  },
+  {
+   "id": "PAT-1015",
+   "name": "Zoya Ansari",
+   "gender": "Female",
+   "dob": "2004-04-22",
+   "bloodGroup": "B+",
+   "city": "Ranchi",
+   "phone": "+91 9820277806",
+   "email": "zoya.ansari@gmail.com",
+   "address": "198, Civil Lines, Ranchi",
+   "emergencyContact": {
+    "name": "Tariq Ansari",
+    "relation": "Father",
+    "phone": "+91 8920717878"
+   },
+   "allergies": [],
+   "chronicConditions": [
+    "Migraine"
+   ],
+   "heightCm": 158,
+   "weightKg": 66,
+   "status": "Active",
+   "createdAt": "2026-07-20T09:30:00"
+  },
+  {
+   "id": "PAT-1016",
+   "name": "Aryan Mishra",
+   "gender": "Male",
+   "dob": "1982-06-09",
+   "bloodGroup": "O+",
+   "city": "Patna",
+   "phone": "+91 9821011935",
+   "email": "aryan.mishra@gmail.com",
+   "address": "205, Banjara Hills, Patna",
+   "emergencyContact": {
+    "name": "Kavita Mishra",
+    "relation": "Spouse",
+    "phone": "+91 8920769155"
+   },
+   "allergies": [],
+   "chronicConditions": [
+    "Type 2 Diabetes"
+   ],
+   "heightCm": 171,
+   "weightKg": 79,
+   "status": "Active",
+   "createdAt": "2026-07-27T09:30:00"
+  },
+  {
+   "id": "PAT-1017",
+   "name": "Nandini Iyer",
+   "gender": "Female",
+   "dob": "1970-09-28",
+   "bloodGroup": "AB+",
+   "city": "Chennai",
+   "phone": "+91 9821746064",
+   "email": "nandini.iyer@gmail.com",
+   "address": "212, Koregaon Park, Chennai",
+   "emergencyContact": {
+    "name": "Karthik Iyer",
+    "relation": "Son",
+    "phone": "+91 8920820432"
+   },
+   "allergies": [
+    "Aspirin"
+   ],
+   "chronicConditions": [
+    "Rheumatoid Arthritis"
+   ],
+   "heightCm": 160,
+   "weightKg": 53,
+   "status": "Active",
+   "createdAt": "2026-08-03T09:30:00"
+  },
+  {
+   "id": "PAT-1018",
+   "name": "Harsh Agarwal",
+   "gender": "Male",
+   "dob": "1993-02-11",
+   "bloodGroup": "A-",
+   "city": "Jaipur",
+   "phone": "+91 9822480193",
+   "email": "harsh.agarwal@gmail.com",
+   "address": "219, Salt Lake, Jaipur",
+   "emergencyContact": {
+    "name": "Sunita Agarwal",
+    "relation": "Mother",
+    "phone": "+91 8920871709"
+   },
+   "allergies": [],
+   "chronicConditions": [],
+   "heightCm": 173,
+   "weightKg": 81,
+   "status": "Active",
+   "createdAt": "2026-08-10T09:30:00"
+  },
+  {
+   "id": "PAT-1019",
+   "name": "Tanvi Deshmukh",
+   "gender": "Female",
+   "dob": "1998-11-07",
+   "bloodGroup": "O-",
+   "city": "Nagpur",
+   "phone": "+91 9823214322",
+   "email": "tanvi.deshmukh@gmail.com",
+   "address": "226, Indiranagar, Nagpur",
+   "emergencyContact": {
+    "name": "Prakash Deshmukh",
+    "relation": "Father",
+    "phone": "+91 8920922986"
+   },
+   "allergies": [],
+   "chronicConditions": [],
+   "heightCm": 162,
+   "weightKg": 55,
+   "status": "Inactive",
+   "createdAt": "2026-08-17T09:30:00"
+  },
+  {
+   "id": "PAT-1020",
+   "name": "Siddharth Rao",
+   "gender": "Male",
+   "dob": "1965-12-24",
+   "bloodGroup": "B-",
+   "city": "Bengaluru",
+   "phone": "+91 9823948451",
+   "email": "siddharth.rao@gmail.com",
+   "address": "233, Gomti Nagar, Bengaluru",
+   "emergencyContact": {
+    "name": "Lakshmi Rao",
+    "relation": "Spouse",
+    "phone": "+91 8920974263"
+   },
+   "allergies": [],
+   "chronicConditions": [
+    "Atrial Fibrillation"
+   ],
+   "heightCm": 175,
+   "weightKg": 83,
+   "status": "Active",
+   "createdAt": "2026-08-24T09:30:00"
+  },
+  {
+   "id": "PAT-1021",
+   "name": "Pari Choudhary",
+   "gender": "Female",
+   "dob": "2015-08-30",
+   "bloodGroup": "A+",
+   "city": "Noida",
+   "phone": "+91 9824682580",
+   "email": "pari.choudhary@gmail.com",
+   "address": "240, Vaishali Nagar, Noida",
+   "emergencyContact": {
+    "name": "Rohit Choudhary",
+    "relation": "Father",
+    "phone": "+91 8921025540"
+   },
+   "allergies": [],
+   "chronicConditions": [],
+   "heightCm": 154,
+   "weightKg": 57,
+   "status": "Active",
+   "createdAt": "2026-08-31T09:30:00"
+  },
+  {
+   "id": "PAT-1022",
+   "name": "Yusuf Siddiqui",
+   "gender": "Male",
+   "dob": "1973-05-15",
+   "bloodGroup": "O+",
+   "city": "Bhopal",
+   "phone": "+91 9825416709",
+   "email": "yusuf.siddiqui@gmail.com",
+   "address": "247, Anna Nagar, Bhopal",
+   "emergencyContact": {
+    "name": "Farida Siddiqui",
+    "relation": "Spouse",
+    "phone": "+91 8921076817"
+   },
+   "allergies": [
+    "Ibuprofen"
+   ],
+   "chronicConditions": [
+    "Gallstones"
+   ],
+   "heightCm": 177,
+   "weightKg": 65,
+   "status": "Active",
+   "createdAt": "2026-09-07T09:30:00"
+  }
+ ],
+ "appointments": [
+  {
+   "id": "APT-20001",
+   "code": "APT-20001",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-01",
+   "departmentId": "DEP-01",
+   "date": "2026-08-03",
+   "time": "09:00",
+   "type": "New Consultation",
+   "reason": "Chest heaviness while climbing stairs",
+   "status": "Completed",
+   "bookedBy": "staff",
+   "createdAt": "2026-07-30T09:30:00"
+  },
+  {
+   "id": "APT-20002",
+   "code": "APT-20002",
+   "patientId": "PAT-1003",
+   "doctorId": "DOC-14",
+   "departmentId": "DEP-08",
+   "date": "2026-08-06",
+   "time": "09:20",
+   "type": "New Consultation",
+   "reason": "Fever with body ache",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-08-02T09:30:00"
+  },
+  {
+   "id": "APT-20003",
+   "code": "APT-20003",
+   "patientId": "PAT-1007",
+   "doctorId": "DOC-01",
+   "departmentId": "DEP-01",
+   "date": "2026-08-09",
+   "time": "09:40",
+   "type": "New Consultation",
+   "reason": "Chest heaviness while climbing stairs",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-08-05T09:30:00"
+  },
+  {
+   "id": "APT-20004",
+   "code": "APT-20004",
+   "patientId": "PAT-1010",
+   "doctorId": "DOC-03",
+   "departmentId": "DEP-03",
+   "date": "2026-08-12",
+   "time": "10:00",
+   "type": "New Consultation",
+   "reason": "Knee pain while walking",
+   "status": "Cancelled",
+   "bookedBy": "online",
+   "createdAt": "2026-08-08T09:30:00"
+  },
+  {
+   "id": "APT-20005",
+   "code": "APT-20005",
+   "patientId": "PAT-1004",
+   "doctorId": "DOC-07",
+   "departmentId": "DEP-07",
+   "date": "2026-08-15",
+   "time": "10:20",
+   "type": "Follow-up",
+   "reason": "Blocked nose and facial pain",
+   "status": "Completed",
+   "bookedBy": "staff",
+   "createdAt": "2026-08-11T09:30:00"
+  },
+  {
+   "id": "APT-20006",
+   "code": "APT-20006",
+   "patientId": "PAT-1012",
+   "doctorId": "DOC-05",
+   "departmentId": "DEP-05",
+   "date": "2026-08-18",
+   "time": "10:40",
+   "type": "New Consultation",
+   "reason": "Irregular periods and weight gain",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-08-14T09:30:00"
+  },
+  {
+   "id": "APT-20007",
+   "code": "APT-20007",
+   "patientId": "PAT-1013",
+   "doctorId": "DOC-08",
+   "departmentId": "DEP-08",
+   "date": "2026-08-21",
+   "time": "11:00",
+   "type": "Teleconsult",
+   "reason": "High sugar readings at home",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-08-17T09:30:00"
+  },
+  {
+   "id": "APT-20008",
+   "code": "APT-20008",
+   "patientId": "PAT-1008",
+   "doctorId": "DOC-04",
+   "departmentId": "DEP-04",
+   "date": "2026-08-24",
+   "time": "11:40",
+   "type": "New Consultation",
+   "reason": "Fever and cough for 3 days",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-08-20T09:30:00"
+  },
+  {
+   "id": "APT-20009",
+   "code": "APT-20009",
+   "patientId": "PAT-1016",
+   "doctorId": "DOC-08",
+   "departmentId": "DEP-08",
+   "date": "2026-08-27",
+   "time": "12:00",
+   "type": "New Consultation",
+   "reason": "High sugar readings at home",
+   "status": "Completed",
+   "bookedBy": "staff",
+   "createdAt": "2026-08-23T09:30:00"
+  },
+  {
+   "id": "APT-20010",
+   "code": "APT-20010",
+   "patientId": "PAT-1006",
+   "doctorId": "DOC-06",
+   "departmentId": "DEP-06",
+   "date": "2026-08-30",
+   "time": "14:20",
+   "type": "Follow-up",
+   "reason": "Itchy red patches on elbows",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-08-26T09:30:00"
+  },
+  {
+   "id": "APT-20011",
+   "code": "APT-20011",
+   "patientId": "PAT-1020",
+   "doctorId": "DOC-13",
+   "departmentId": "DEP-01",
+   "date": "2026-09-02",
+   "time": "15:00",
+   "type": "New Consultation",
+   "reason": "Chest heaviness while climbing stairs",
+   "status": "Cancelled",
+   "bookedBy": "online",
+   "createdAt": "2026-08-29T09:30:00"
+  },
+  {
+   "id": "APT-20012",
+   "code": "APT-20012",
+   "patientId": "PAT-1022",
+   "doctorId": "DOC-12",
+   "departmentId": "DEP-12",
+   "date": "2026-09-05",
+   "time": "15:40",
+   "type": "New Consultation",
+   "reason": "Pain in upper right abdomen after meals",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-01T09:30:00"
+  },
+  {
+   "id": "APT-20013",
+   "code": "APT-20013",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-08",
+   "departmentId": "DEP-08",
+   "date": "2026-09-08",
+   "time": "16:20",
+   "type": "New Consultation",
+   "reason": "High sugar readings at home",
+   "status": "Completed",
+   "bookedBy": "staff",
+   "createdAt": "2026-09-04T09:30:00"
+  },
+  {
+   "id": "APT-20014",
+   "code": "APT-20014",
+   "patientId": "PAT-1015",
+   "doctorId": "DOC-02",
+   "departmentId": "DEP-02",
+   "date": "2026-09-11",
+   "time": "17:00",
+   "type": "New Consultation",
+   "reason": "Recurrent severe headaches",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-07T09:30:00"
+  },
+  {
+   "id": "APT-20015",
+   "code": "APT-20015",
+   "patientId": "PAT-1009",
+   "doctorId": "DOC-09",
+   "departmentId": "DEP-09",
+   "date": "2026-09-14",
+   "time": "09:00",
+   "type": "Follow-up",
+   "reason": "Tooth pain while chewing",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-10T09:30:00"
+  },
+  {
+   "id": "APT-20016",
+   "code": "APT-20016",
+   "patientId": "PAT-1017",
+   "doctorId": "DOC-03",
+   "departmentId": "DEP-03",
+   "date": "2026-09-17",
+   "time": "09:20",
+   "type": "New Consultation",
+   "reason": "Knee pain while walking",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-13T09:30:00"
+  },
+  {
+   "id": "APT-20017",
+   "code": "APT-20017",
+   "patientId": "PAT-1002",
+   "doctorId": "DOC-06",
+   "departmentId": "DEP-06",
+   "date": "2026-09-19",
+   "time": "09:40",
+   "type": "New Consultation",
+   "reason": "Itchy red patches on elbows",
+   "status": "Completed",
+   "bookedBy": "staff",
+   "createdAt": "2026-09-15T09:30:00"
+  },
+  {
+   "id": "APT-20018",
+   "code": "APT-20018",
+   "patientId": "PAT-1005",
+   "doctorId": "DOC-08",
+   "departmentId": "DEP-08",
+   "date": "2026-09-21",
+   "time": "10:00",
+   "type": "Teleconsult",
+   "reason": "Fever with body ache",
+   "status": "Cancelled",
+   "bookedBy": "online",
+   "createdAt": "2026-09-17T09:30:00"
+  },
+  {
+   "id": "APT-20019",
+   "code": "APT-20019",
+   "patientId": "PAT-1011",
+   "doctorId": "DOC-01",
+   "departmentId": "DEP-01",
+   "date": "2026-09-23",
+   "time": "10:20",
+   "type": "New Consultation",
+   "reason": "Chest heaviness while climbing stairs",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-19T09:30:00"
+  },
+  {
+   "id": "APT-20020",
+   "code": "APT-20020",
+   "patientId": "PAT-1014",
+   "doctorId": "DOC-05",
+   "departmentId": "DEP-05",
+   "date": "2026-09-25",
+   "time": "10:40",
+   "type": "Follow-up",
+   "reason": "Irregular periods and weight gain",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-21T09:30:00"
+  },
+  {
+   "id": "APT-20021",
+   "code": "APT-20021",
+   "patientId": "PAT-1018",
+   "doctorId": "DOC-07",
+   "departmentId": "DEP-07",
+   "date": "2026-09-27",
+   "time": "11:00",
+   "type": "New Consultation",
+   "reason": "Blocked nose and facial pain",
+   "status": "Completed",
+   "bookedBy": "staff",
+   "createdAt": "2026-09-23T09:30:00"
+  },
+  {
+   "id": "APT-20022",
+   "code": "APT-20022",
+   "patientId": "PAT-1021",
+   "doctorId": "DOC-04",
+   "departmentId": "DEP-04",
+   "date": "2026-09-28",
+   "time": "11:40",
+   "type": "New Consultation",
+   "reason": "Fever and cough for 3 days",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-24T09:30:00"
+  },
+  {
+   "id": "APT-20023",
+   "code": "APT-20023",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-13",
+   "departmentId": "DEP-01",
+   "date": "2026-09-29",
+   "time": "12:00",
+   "type": "New Consultation",
+   "reason": "Chest heaviness while climbing stairs",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-25T09:30:00"
+  },
+  {
+   "id": "APT-20024",
+   "code": "APT-20024",
+   "patientId": "PAT-1003",
+   "doctorId": "DOC-14",
+   "departmentId": "DEP-08",
+   "date": "2026-09-30",
+   "time": "14:20",
+   "type": "New Consultation",
+   "reason": "Fever with body ache",
+   "status": "Pending",
+   "bookedBy": "online",
+   "createdAt": "2026-09-26T09:30:00"
+  },
+  {
+   "id": "APT-20025",
+   "code": "APT-20025",
+   "patientId": "PAT-1007",
+   "doctorId": "DOC-01",
+   "departmentId": "DEP-01",
+   "date": "2026-09-30",
+   "time": "15:00",
+   "type": "Follow-up",
+   "reason": "Chest heaviness while climbing stairs",
+   "status": "Completed",
+   "bookedBy": "staff",
+   "createdAt": "2026-09-26T09:30:00"
+  },
+  {
+   "id": "APT-20026",
+   "code": "APT-20026",
+   "patientId": "PAT-1010",
+   "doctorId": "DOC-03",
+   "departmentId": "DEP-03",
+   "date": "2026-09-30",
+   "time": "15:40",
+   "type": "New Consultation",
+   "reason": "Knee pain while walking",
+   "status": "Confirmed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-26T09:30:00"
+  },
+  {
+   "id": "APT-20027",
+   "code": "APT-20027",
+   "patientId": "PAT-1019",
+   "doctorId": "DOC-09",
+   "departmentId": "DEP-09",
+   "date": "2026-09-30",
+   "time": "16:20",
+   "type": "New Consultation",
+   "reason": "Tooth pain while chewing",
+   "status": "Pending",
+   "bookedBy": "online",
+   "createdAt": "2026-09-26T09:30:00"
+  },
+  {
+   "id": "APT-20028",
+   "code": "APT-20028",
+   "patientId": "PAT-1012",
+   "doctorId": "DOC-05",
+   "departmentId": "DEP-05",
+   "date": "2026-09-30",
+   "time": "17:00",
+   "type": "New Consultation",
+   "reason": "Irregular periods and weight gain",
+   "status": "Completed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-26T09:30:00"
+  },
+  {
+   "id": "APT-20029",
+   "code": "APT-20029",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-01",
+   "departmentId": "DEP-01",
+   "date": "2026-10-02",
+   "time": "09:00",
+   "type": "Teleconsult",
+   "reason": "Chest heaviness while climbing stairs",
+   "status": "Confirmed",
+   "bookedBy": "staff",
+   "createdAt": "2026-09-28T09:30:00"
+  },
+  {
+   "id": "APT-20030",
+   "code": "APT-20030",
+   "patientId": "PAT-1004",
+   "doctorId": "DOC-07",
+   "departmentId": "DEP-07",
+   "date": "2026-10-03",
+   "time": "09:20",
+   "type": "Follow-up",
+   "reason": "Blocked nose and facial pain",
+   "status": "Confirmed",
+   "bookedBy": "online",
+   "createdAt": "2026-09-29T09:30:00"
+  },
+  {
+   "id": "APT-20031",
+   "code": "APT-20031",
+   "patientId": "PAT-1016",
+   "doctorId": "DOC-14",
+   "departmentId": "DEP-08",
+   "date": "2026-10-04",
+   "time": "09:40",
+   "type": "New Consultation",
+   "reason": "High sugar readings at home",
+   "status": "Pending",
+   "bookedBy": "online",
+   "createdAt": "2026-09-30T09:30:00"
+  },
+  {
+   "id": "APT-20032",
+   "code": "APT-20032",
+   "patientId": "PAT-1006",
+   "doctorId": "DOC-08",
+   "departmentId": "DEP-08",
+   "date": "2026-10-05",
+   "time": "10:00",
+   "type": "New Consultation",
+   "reason": "Fever with body ache",
+   "status": "Confirmed",
+   "bookedBy": "online",
+   "createdAt": "2026-10-01T09:30:00"
+  },
+  {
+   "id": "APT-20033",
+   "code": "APT-20033",
+   "patientId": "PAT-1013",
+   "doctorId": "DOC-13",
+   "departmentId": "DEP-01",
+   "date": "2026-10-07",
+   "time": "10:20",
+   "type": "New Consultation",
+   "reason": "Chest heaviness while climbing stairs",
+   "status": "Confirmed",
+   "bookedBy": "staff",
+   "createdAt": "2026-10-03T09:30:00"
+  },
+  {
+   "id": "APT-20034",
+   "code": "APT-20034",
+   "patientId": "PAT-1008",
+   "doctorId": "DOC-04",
+   "departmentId": "DEP-04",
+   "date": "2026-10-09",
+   "time": "10:40",
+   "type": "New Consultation",
+   "reason": "Fever and cough for 3 days",
+   "status": "Cancelled",
+   "bookedBy": "online",
+   "createdAt": "2026-10-05T09:30:00"
+  },
+  {
+   "id": "APT-20035",
+   "code": "APT-20035",
+   "patientId": "PAT-1022",
+   "doctorId": "DOC-12",
+   "departmentId": "DEP-12",
+   "date": "2026-10-11",
+   "time": "11:00",
+   "type": "Follow-up",
+   "reason": "Pain in upper right abdomen after meals",
+   "status": "Confirmed",
+   "bookedBy": "online",
+   "createdAt": "2026-10-07T09:30:00"
+  },
+  {
+   "id": "APT-20036",
+   "code": "APT-20036",
+   "patientId": "PAT-1017",
+   "doctorId": "DOC-02",
+   "departmentId": "DEP-02",
+   "date": "2026-10-14",
+   "time": "11:40",
+   "type": "New Consultation",
+   "reason": "Recurrent severe headaches",
+   "status": "Confirmed",
+   "bookedBy": "online",
+   "createdAt": "2026-10-10T09:30:00"
+  }
+ ],
+ "medicalRecords": [
+  {
+   "id": "MR-5001",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-01",
+   "appointmentId": "APT-20001",
+   "visitDate": "2026-08-03",
+   "symptoms": [
+    "Chest heaviness on exertion",
+    "Breathlessness",
+    "Fatigue"
+   ],
+   "diagnosis": "Stable angina (CAD suspected)",
+   "medicalHistory": "Hypertension for 6 years, ex-smoker.",
+   "doctorNotes": "ECG shows ST depression in lateral leads on stress. Advised angiography if symptoms persist.",
+   "treatment": "Antiplatelet, statin and beta-blocker started. Lifestyle modification counselled.",
+   "vitals": {
+    "bp": "118/76",
+    "pulse": 72,
+    "tempF": 100.4,
+    "spo2": 97
+   },
+   "followUpDate": "2026-08-24",
+   "createdAt": "2026-08-03T12:00:00"
+  },
+  {
+   "id": "MR-5002",
+   "patientId": "PAT-1003",
+   "doctorId": "DOC-14",
+   "appointmentId": "APT-20002",
+   "visitDate": "2026-08-06",
+   "symptoms": [
+    "High fever",
+    "Body ache",
+    "Headache"
+   ],
+   "diagnosis": "Viral fever (Dengue NS1 negative)",
+   "medicalHistory": "No comorbidities.",
+   "doctorNotes": "Platelets adequate. Hydration advised.",
+   "treatment": "Antipyretics, oral fluids; repeat CBC in 48 h.",
+   "vitals": {
+    "bp": "122/79",
+    "pulse": 74,
+    "tempF": 98.4,
+    "spo2": 98
+   },
+   "followUpDate": "2026-09-03",
+   "createdAt": "2026-08-06T12:00:00"
+  },
+  {
+   "id": "MR-5003",
+   "patientId": "PAT-1007",
+   "doctorId": "DOC-01",
+   "appointmentId": "APT-20003",
+   "visitDate": "2026-08-09",
+   "symptoms": [
+    "Chest heaviness on exertion",
+    "Breathlessness",
+    "Fatigue"
+   ],
+   "diagnosis": "Stable angina (CAD suspected)",
+   "medicalHistory": "Hypertension for 6 years, ex-smoker.",
+   "doctorNotes": "ECG shows ST depression in lateral leads on stress. Advised angiography if symptoms persist.",
+   "treatment": "Antiplatelet, statin and beta-blocker started. Lifestyle modification counselled.",
+   "vitals": {
+    "bp": "126/82",
+    "pulse": 76,
+    "tempF": 98.4,
+    "spo2": 99
+   },
+   "followUpDate": "2026-09-13",
+   "createdAt": "2026-08-09T12:00:00"
+  },
+  {
+   "id": "MR-5004",
+   "patientId": "PAT-1004",
+   "doctorId": "DOC-07",
+   "appointmentId": "APT-20005",
+   "visitDate": "2026-08-15",
+   "symptoms": [
+    "Nasal block",
+    "Facial heaviness",
+    "Post-nasal drip"
+   ],
+   "diagnosis": "Chronic rhinosinusitis",
+   "medicalHistory": "Recurrent colds for 1 year.",
+   "doctorNotes": "Diagnostic nasal endoscopy: DNS to left, mucopus in middle meatus.",
+   "treatment": "Nasal steroid spray, saline irrigation; CT PNS if persists.",
+   "vitals": {
+    "bp": "130/85",
+    "pulse": 78,
+    "tempF": 98.4,
+    "spo2": 97
+   },
+   "followUpDate": "2026-09-05",
+   "createdAt": "2026-08-15T12:00:00"
+  },
+  {
+   "id": "MR-5005",
+   "patientId": "PAT-1012",
+   "doctorId": "DOC-05",
+   "appointmentId": "APT-20006",
+   "visitDate": "2026-08-18",
+   "symptoms": [
+    "Irregular cycles",
+    "Acne",
+    "Weight gain"
+   ],
+   "diagnosis": "Polycystic ovary syndrome (PCOS)",
+   "medicalHistory": "Cycles every 45–60 days for 2 years.",
+   "doctorNotes": "USG shows polycystic ovarian morphology.",
+   "treatment": "Lifestyle modification, metformin; follow-up in 3 months.",
+   "vitals": {
+    "bp": "134/76",
+    "pulse": 80,
+    "tempF": 98.4,
+    "spo2": 98
+   },
+   "followUpDate": "2026-09-15",
+   "createdAt": "2026-08-18T12:00:00"
+  },
+  {
+   "id": "MR-5006",
+   "patientId": "PAT-1013",
+   "doctorId": "DOC-08",
+   "appointmentId": "APT-20007",
+   "visitDate": "2026-08-21",
+   "symptoms": [
+    "High fever",
+    "Body ache",
+    "Headache"
+   ],
+   "diagnosis": "Viral fever (Dengue NS1 negative)",
+   "medicalHistory": "No comorbidities.",
+   "doctorNotes": "Platelets adequate. Hydration advised.",
+   "treatment": "Antipyretics, oral fluids; repeat CBC in 48 h.",
+   "vitals": {
+    "bp": "138/79",
+    "pulse": 82,
+    "tempF": 100.4,
+    "spo2": 99
+   },
+   "followUpDate": "2026-09-25",
+   "createdAt": "2026-08-21T12:00:00"
+  },
+  {
+   "id": "MR-5007",
+   "patientId": "PAT-1008",
+   "doctorId": "DOC-04",
+   "appointmentId": "APT-20008",
+   "visitDate": "2026-08-24",
+   "symptoms": [
+    "Fever 101°F",
+    "Dry cough",
+    "Runny nose"
+   ],
+   "diagnosis": "Acute viral upper respiratory infection",
+   "medicalHistory": "Vaccinations up to date.",
+   "doctorNotes": "Chest clear. Hydration and fever chart advised.",
+   "treatment": "Symptomatic management; review if fever > 3 days.",
+   "vitals": {
+    "bp": "118/82",
+    "pulse": 84,
+    "tempF": 98.4,
+    "spo2": 97
+   },
+   "followUpDate": "2026-09-14",
+   "createdAt": "2026-08-24T12:00:00"
+  },
+  {
+   "id": "MR-5008",
+   "patientId": "PAT-1016",
+   "doctorId": "DOC-08",
+   "appointmentId": "APT-20009",
+   "visitDate": "2026-08-27",
+   "symptoms": [
+    "High fever",
+    "Body ache",
+    "Headache"
+   ],
+   "diagnosis": "Viral fever (Dengue NS1 negative)",
+   "medicalHistory": "No comorbidities.",
+   "doctorNotes": "Platelets adequate. Hydration advised.",
+   "treatment": "Antipyretics, oral fluids; repeat CBC in 48 h.",
+   "vitals": {
+    "bp": "122/85",
+    "pulse": 86,
+    "tempF": 98.4,
+    "spo2": 98
+   },
+   "followUpDate": "2026-09-24",
+   "createdAt": "2026-08-27T12:00:00"
+  },
+  {
+   "id": "MR-5009",
+   "patientId": "PAT-1006",
+   "doctorId": "DOC-06",
+   "appointmentId": "APT-20010",
+   "visitDate": "2026-08-30",
+   "symptoms": [
+    "Scaly plaques",
+    "Itching"
+   ],
+   "diagnosis": "Chronic plaque psoriasis",
+   "medicalHistory": "Flares in winter.",
+   "doctorNotes": "BSA involvement ~4%. Nails normal.",
+   "treatment": "Topical steroid + emollients; phototherapy if no response.",
+   "vitals": {
+    "bp": "126/76",
+    "pulse": 72,
+    "tempF": 98.4,
+    "spo2": 99
+   },
+   "followUpDate": "2026-10-04",
+   "createdAt": "2026-08-30T12:00:00"
+  },
+  {
+   "id": "MR-5010",
+   "patientId": "PAT-1022",
+   "doctorId": "DOC-12",
+   "appointmentId": "APT-20012",
+   "visitDate": "2026-09-05",
+   "symptoms": [
+    "Right upper abdominal pain",
+    "Bloating after fatty food"
+   ],
+   "diagnosis": "Symptomatic cholelithiasis (gallstones)",
+   "medicalHistory": "Two similar episodes in last 3 months.",
+   "doctorNotes": "Murphy's sign positive. USG: multiple calculi, largest 12 mm.",
+   "treatment": "Elective laparoscopic cholecystectomy advised.",
+   "vitals": {
+    "bp": "130/79",
+    "pulse": 74,
+    "tempF": 98.4,
+    "spo2": 97
+   },
+   "followUpDate": "2026-09-26",
+   "createdAt": "2026-09-05T12:00:00"
+  },
+  {
+   "id": "MR-5011",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-08",
+   "appointmentId": "APT-20013",
+   "visitDate": "2026-09-08",
+   "symptoms": [
+    "Increased thirst",
+    "Frequent urination",
+    "Tiredness"
+   ],
+   "diagnosis": "Type 2 diabetes mellitus — uncontrolled",
+   "medicalHistory": "Diabetic for 5 years, irregular medication.",
+   "doctorNotes": "Foot exam normal. Diet chart given.",
+   "treatment": "Metformin dose optimised, DPP-4 inhibitor added; HbA1c after 3 months.",
+   "vitals": {
+    "bp": "134/82",
+    "pulse": 76,
+    "tempF": 100.4,
+    "spo2": 98
+   },
+   "followUpDate": "2026-10-06",
+   "createdAt": "2026-09-08T12:00:00"
+  },
+  {
+   "id": "MR-5012",
+   "patientId": "PAT-1015",
+   "doctorId": "DOC-02",
+   "appointmentId": "APT-20014",
+   "visitDate": "2026-09-11",
+   "symptoms": [
+    "Throbbing one-sided headache",
+    "Nausea",
+    "Light sensitivity"
+   ],
+   "diagnosis": "Migraine without aura",
+   "medicalHistory": "Headaches since college, worse with poor sleep.",
+   "doctorNotes": "Neurological exam normal. Headache diary advised.",
+   "treatment": "Acute and preventive therapy; sleep hygiene counselling.",
+   "vitals": {
+    "bp": "138/85",
+    "pulse": 78,
+    "tempF": 98.4,
+    "spo2": 99
+   },
+   "followUpDate": "2026-10-16",
+   "createdAt": "2026-09-11T12:00:00"
+  },
+  {
+   "id": "MR-5013",
+   "patientId": "PAT-1009",
+   "doctorId": "DOC-09",
+   "appointmentId": "APT-20015",
+   "visitDate": "2026-09-14",
+   "symptoms": [
+    "Severe toothache",
+    "Sensitivity to hot"
+   ],
+   "diagnosis": "Irreversible pulpitis — lower right molar (46)",
+   "medicalHistory": "Deep cavity noticed 6 months ago.",
+   "doctorNotes": "IOPA shows deep caries approaching pulp.",
+   "treatment": "Root canal treatment planned in 2 sittings, followed by crown.",
+   "vitals": {
+    "bp": "118/76",
+    "pulse": 80,
+    "tempF": 98.4,
+    "spo2": 97
+   },
+   "followUpDate": "2026-10-05",
+   "createdAt": "2026-09-14T12:00:00"
+  },
+  {
+   "id": "MR-5014",
+   "patientId": "PAT-1017",
+   "doctorId": "DOC-03",
+   "appointmentId": "APT-20016",
+   "visitDate": "2026-09-17",
+   "symptoms": [
+    "Bilateral knee pain",
+    "Morning stiffness < 30 min",
+    "Crepitus"
+   ],
+   "diagnosis": "Osteoarthritis of knee (Grade II)",
+   "medicalHistory": "Knee pain for 2 years, worse on stairs.",
+   "doctorNotes": "X-ray shows medial joint space narrowing. BMI 29.",
+   "treatment": "Physiotherapy, weight reduction, analgesics; review in 6 weeks.",
+   "vitals": {
+    "bp": "122/79",
+    "pulse": 82,
+    "tempF": 98.4,
+    "spo2": 98
+   },
+   "followUpDate": "2026-10-15",
+   "createdAt": "2026-09-17T12:00:00"
+  },
+  {
+   "id": "MR-5015",
+   "patientId": "PAT-1002",
+   "doctorId": "DOC-06",
+   "appointmentId": "APT-20017",
+   "visitDate": "2026-09-19",
+   "symptoms": [
+    "Scaly plaques",
+    "Itching"
+   ],
+   "diagnosis": "Chronic plaque psoriasis",
+   "medicalHistory": "Flares in winter.",
+   "doctorNotes": "BSA involvement ~4%. Nails normal.",
+   "treatment": "Topical steroid + emollients; phototherapy if no response.",
+   "vitals": {
+    "bp": "126/82",
+    "pulse": 84,
+    "tempF": 98.4,
+    "spo2": 99
+   },
+   "followUpDate": "2026-10-24",
+   "createdAt": "2026-09-19T12:00:00"
+  },
+  {
+   "id": "MR-5016",
+   "patientId": "PAT-1011",
+   "doctorId": "DOC-01",
+   "appointmentId": "APT-20019",
+   "visitDate": "2026-09-23",
+   "symptoms": [
+    "Palpitations",
+    "Light-headedness"
+   ],
+   "diagnosis": "Paroxysmal atrial fibrillation",
+   "medicalHistory": "No prior cardiac history.",
+   "doctorNotes": "Holter shows AF episodes lasting up to 40 min. CHA2DS2-VASc 1.",
+   "treatment": "Rate control initiated; anticoagulation discussed.",
+   "vitals": {
+    "bp": "130/85",
+    "pulse": 86,
+    "tempF": 100.4,
+    "spo2": 97
+   },
+   "followUpDate": "2026-10-14",
+   "createdAt": "2026-09-23T12:00:00"
+  },
+  {
+   "id": "MR-5017",
+   "patientId": "PAT-1014",
+   "doctorId": "DOC-05",
+   "appointmentId": "APT-20020",
+   "visitDate": "2026-09-25",
+   "symptoms": [
+    "Irregular cycles",
+    "Acne",
+    "Weight gain"
+   ],
+   "diagnosis": "Polycystic ovary syndrome (PCOS)",
+   "medicalHistory": "Cycles every 45–60 days for 2 years.",
+   "doctorNotes": "USG shows polycystic ovarian morphology.",
+   "treatment": "Lifestyle modification, metformin; follow-up in 3 months.",
+   "vitals": {
+    "bp": "134/76",
+    "pulse": 72,
+    "tempF": 98.4,
+    "spo2": 98
+   },
+   "followUpDate": "2026-10-23",
+   "createdAt": "2026-09-25T12:00:00"
+  },
+  {
+   "id": "MR-5018",
+   "patientId": "PAT-1018",
+   "doctorId": "DOC-07",
+   "appointmentId": "APT-20021",
+   "visitDate": "2026-09-27",
+   "symptoms": [
+    "Nasal block",
+    "Facial heaviness",
+    "Post-nasal drip"
+   ],
+   "diagnosis": "Chronic rhinosinusitis",
+   "medicalHistory": "Recurrent colds for 1 year.",
+   "doctorNotes": "Diagnostic nasal endoscopy: DNS to left, mucopus in middle meatus.",
+   "treatment": "Nasal steroid spray, saline irrigation; CT PNS if persists.",
+   "vitals": {
+    "bp": "138/79",
+    "pulse": 74,
+    "tempF": 98.4,
+    "spo2": 99
+   },
+   "followUpDate": "2026-11-01",
+   "createdAt": "2026-09-27T12:00:00"
+  }
+ ],
+ "prescriptions": [
+  {
+   "id": "RX-7001",
+   "code": "RX-7001",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-01",
+   "appointmentId": "APT-20001",
+   "date": "2026-08-03",
+   "diagnosis": "Stable angina (CAD suspected)",
+   "medicines": [
+    {
+     "medicine": "Aspirin 75 mg",
+     "dosage": "1 tablet",
+     "frequency": "Once daily (after lunch)",
+     "duration": "3 months",
+     "instructions": "Do not take on empty stomach"
+    },
+    {
+     "medicine": "Atorvastatin 20 mg",
+     "dosage": "1 tablet",
+     "frequency": "Once daily (bedtime)",
+     "duration": "3 months",
+     "instructions": "Avoid grapefruit juice"
+    },
+    {
+     "medicine": "Metoprolol 25 mg",
+     "dosage": "1 tablet",
+     "frequency": "Twice daily",
+     "duration": "1 month",
+     "instructions": "Check pulse before dose"
+    }
+   ],
+   "advice": "Review with reports on follow-up date.",
+   "createdAt": "2026-08-03T12:30:00"
+  },
+  {
+   "id": "RX-7002",
+   "code": "RX-7002",
+   "patientId": "PAT-1003",
+   "doctorId": "DOC-14",
+   "appointmentId": "APT-20002",
+   "date": "2026-08-06",
+   "diagnosis": "Viral fever (Dengue NS1 negative)",
+   "medicines": [
+    {
+     "medicine": "Paracetamol 650 mg",
+     "dosage": "1 tablet",
+     "frequency": "Every 6 hours if fever",
+     "duration": "5 days",
+     "instructions": "Avoid NSAIDs"
+    },
+    {
+     "medicine": "ORS sachets",
+     "dosage": "1 sachet in 1 L water",
+     "frequency": "Through the day",
+     "duration": "3 days",
+     "instructions": ""
+    }
+   ],
+   "advice": "Drink plenty of water, 30 minutes of walking daily.",
+   "createdAt": "2026-08-06T12:30:00"
+  },
+  {
+   "id": "RX-7003",
+   "code": "RX-7003",
+   "patientId": "PAT-1007",
+   "doctorId": "DOC-01",
+   "appointmentId": "APT-20003",
+   "date": "2026-08-09",
+   "diagnosis": "Stable angina (CAD suspected)",
+   "medicines": [
+    {
+     "medicine": "Aspirin 75 mg",
+     "dosage": "1 tablet",
+     "frequency": "Once daily (after lunch)",
+     "duration": "3 months",
+     "instructions": "Do not take on empty stomach"
+    },
+    {
+     "medicine": "Atorvastatin 20 mg",
+     "dosage": "1 tablet",
+     "frequency": "Once daily (bedtime)",
+     "duration": "3 months",
+     "instructions": "Avoid grapefruit juice"
+    },
+    {
+     "medicine": "Metoprolol 25 mg",
+     "dosage": "1 tablet",
+     "frequency": "Twice daily",
+     "duration": "1 month",
+     "instructions": "Check pulse before dose"
+    }
+   ],
+   "advice": "Review with reports on follow-up date.",
+   "createdAt": "2026-08-09T12:30:00"
+  },
+  {
+   "id": "RX-7004",
+   "code": "RX-7004",
+   "patientId": "PAT-1004",
+   "doctorId": "DOC-07",
+   "appointmentId": "APT-20005",
+   "date": "2026-08-15",
+   "diagnosis": "Chronic rhinosinusitis",
+   "medicines": [
+    {
+     "medicine": "Fluticasone nasal spray",
+     "dosage": "2 puffs each nostril",
+     "frequency": "Once daily",
+     "duration": "1 month",
+     "instructions": "Aim away from septum"
+    },
+    {
+     "medicine": "Levocetirizine 5 mg",
+     "dosage": "1 tablet",
+     "frequency": "Once daily (night)",
+     "duration": "10 days",
+     "instructions": "May cause drowsiness"
+    }
+   ],
+   "advice": "Drink plenty of water, 30 minutes of walking daily.",
+   "createdAt": "2026-08-15T12:30:00"
+  },
+  {
+   "id": "RX-7005",
+   "code": "RX-7005",
+   "patientId": "PAT-1012",
+   "doctorId": "DOC-05",
+   "appointmentId": "APT-20006",
+   "date": "2026-08-18",
+   "diagnosis": "Polycystic ovary syndrome (PCOS)",
+   "medicines": [
+    {
+     "medicine": "Metformin 500 mg",
+     "dosage": "1 tablet",
+     "frequency": "Twice daily",
+     "duration": "3 months",
+     "instructions": "With meals"
+    },
+    {
+     "medicine": "Folic acid 5 mg",
+     "dosage": "1 tablet",
+     "frequency": "Once daily",
+     "duration": "3 months",
+     "instructions": ""
+    }
+   ],
+   "advice": "Review with reports on follow-up date.",
+   "createdAt": "2026-08-18T12:30:00"
+  },
+  {
+   "id": "RX-7006",
+   "code": "RX-7006",
+   "patientId": "PAT-1013",
+   "doctorId": "DOC-08",
+   "appointmentId": "APT-20007",
+   "date": "2026-08-21",
+   "diagnosis": "Viral fever (Dengue NS1 negative)",
+   "medicines": [
+    {
+     "medicine": "Paracetamol 650 mg",
+     "dosage": "1 tablet",
+     "frequency": "Every 6 hours if fever",
+     "duration": "5 days",
+     "instructions": "Avoid NSAIDs"
+    },
+    {
+     "medicine": "ORS sachets",
+     "dosage": "1 sachet in 1 L water",
+     "frequency": "Through the day",
+     "duration": "3 days",
+     "instructions": ""
+    }
+   ],
+   "advice": "Drink plenty of water, 30 minutes of walking daily.",
+   "createdAt": "2026-08-21T12:30:00"
+  },
+  {
+   "id": "RX-7007",
+   "code": "RX-7007",
+   "patientId": "PAT-1008",
+   "doctorId": "DOC-04",
+   "appointmentId": "APT-20008",
+   "date": "2026-08-24",
+   "diagnosis": "Acute viral upper respiratory infection",
+   "medicines": [
+    {
+     "medicine": "Paracetamol syrup 250 mg/5 ml",
+     "dosage": "5 ml",
+     "frequency": "Every 6 hours if fever",
+     "duration": "3 days",
+     "instructions": "Max 4 doses/day"
+    },
+    {
+     "medicine": "Saline nasal drops",
+     "dosage": "2 drops each nostril",
+     "frequency": "Three times daily",
+     "duration": "5 days",
+     "instructions": ""
+    }
+   ],
+   "advice": "Review with reports on follow-up date.",
+   "createdAt": "2026-08-24T12:30:00"
+  },
+  {
+   "id": "RX-7008",
+   "code": "RX-7008",
+   "patientId": "PAT-1016",
+   "doctorId": "DOC-08",
+   "appointmentId": "APT-20009",
+   "date": "2026-08-27",
+   "diagnosis": "Viral fever (Dengue NS1 negative)",
+   "medicines": [
+    {
+     "medicine": "Paracetamol 650 mg",
+     "dosage": "1 tablet",
+     "frequency": "Every 6 hours if fever",
+     "duration": "5 days",
+     "instructions": "Avoid NSAIDs"
+    },
+    {
+     "medicine": "ORS sachets",
+     "dosage": "1 sachet in 1 L water",
+     "frequency": "Through the day",
+     "duration": "3 days",
+     "instructions": ""
+    }
+   ],
+   "advice": "Drink plenty of water, 30 minutes of walking daily.",
+   "createdAt": "2026-08-27T12:30:00"
+  },
+  {
+   "id": "RX-7009",
+   "code": "RX-7009",
+   "patientId": "PAT-1006",
+   "doctorId": "DOC-06",
+   "appointmentId": "APT-20010",
+   "date": "2026-08-30",
+   "diagnosis": "Chronic plaque psoriasis",
+   "medicines": [
+    {
+     "medicine": "Clobetasol 0.05% cream",
+     "dosage": "Thin layer",
+     "frequency": "Twice daily",
+     "duration": "2 weeks",
+     "instructions": "Not on face"
+    },
+    {
+     "medicine": "Liquid paraffin emollient",
+     "dosage": "Apply liberally",
+     "frequency": "Three times daily",
+     "duration": "1 month",
+     "instructions": "After bath"
+    }
+   ],
+   "advice": "Review with reports on follow-up date.",
+   "createdAt": "2026-08-30T12:30:00"
+  },
+  {
+   "id": "RX-7010",
+   "code": "RX-7010",
+   "patientId": "PAT-1022",
+   "doctorId": "DOC-12",
+   "appointmentId": "APT-20012",
+   "date": "2026-09-05",
+   "diagnosis": "Symptomatic cholelithiasis (gallstones)",
+   "medicines": [
+    {
+     "medicine": "Drotaverine 80 mg",
+     "dosage": "1 tablet",
+     "frequency": "Twice daily if pain",
+     "duration": "5 days",
+     "instructions": ""
+    },
+    {
+     "medicine": "Pantoprazole 40 mg",
+     "dosage": "1 tablet",
+     "frequency": "Once daily before breakfast",
+     "duration": "14 days",
+     "instructions": "Empty stomach"
+    }
+   ],
+   "advice": "Drink plenty of water, 30 minutes of walking daily.",
+   "createdAt": "2026-09-05T12:30:00"
+  },
+  {
+   "id": "RX-7011",
+   "code": "RX-7011",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-08",
+   "appointmentId": "APT-20013",
+   "date": "2026-09-08",
+   "diagnosis": "Type 2 diabetes mellitus — uncontrolled",
+   "medicines": [
+    {
+     "medicine": "Metformin SR 1000 mg",
+     "dosage": "1 tablet",
+     "frequency": "Twice daily",
+     "duration": "3 months",
+     "instructions": "With meals"
+    },
+    {
+     "medicine": "Sitagliptin 100 mg",
+     "dosage": "1 tablet",
+     "frequency": "Once daily (morning)",
+     "duration": "3 months",
+     "instructions": ""
+    }
+   ],
+   "advice": "Review with reports on follow-up date.",
+   "createdAt": "2026-09-08T12:30:00"
+  },
+  {
+   "id": "RX-7012",
+   "code": "RX-7012",
+   "patientId": "PAT-1015",
+   "doctorId": "DOC-02",
+   "appointmentId": "APT-20014",
+   "date": "2026-09-11",
+   "diagnosis": "Migraine without aura",
+   "medicines": [
+    {
+     "medicine": "Naproxen 500 mg",
+     "dosage": "1 tablet",
+     "frequency": "At onset of headache (max 2/day)",
+     "duration": "As needed",
+     "instructions": "Take after food"
+    },
+    {
+     "medicine": "Propranolol 20 mg",
+     "dosage": "1 tablet",
+     "frequency": "Twice daily",
+     "duration": "2 months",
+     "instructions": "Do not stop abruptly"
+    }
+   ],
+   "advice": "Drink plenty of water, 30 minutes of walking daily.",
+   "createdAt": "2026-09-11T12:30:00"
+  },
+  {
+   "id": "RX-7013",
+   "code": "RX-7013",
+   "patientId": "PAT-1009",
+   "doctorId": "DOC-09",
+   "appointmentId": "APT-20015",
+   "date": "2026-09-14",
+   "diagnosis": "Irreversible pulpitis — lower right molar (46)",
+   "medicines": [
+    {
+     "medicine": "Amoxicillin 500 mg",
+     "dosage": "1 capsule",
+     "frequency": "Three times daily",
+     "duration": "5 days",
+     "instructions": "Complete the course"
+    },
+    {
+     "medicine": "Ketorolac 10 mg",
+     "dosage": "1 tablet",
+     "frequency": "Twice daily if pain",
+     "duration": "3 days",
+     "instructions": "After food"
+    }
+   ],
+   "advice": "Review with reports on follow-up date.",
+   "createdAt": "2026-09-14T12:30:00"
+  },
+  {
+   "id": "RX-7014",
+   "code": "RX-7014",
+   "patientId": "PAT-1017",
+   "doctorId": "DOC-03",
+   "appointmentId": "APT-20016",
+   "date": "2026-09-17",
+   "diagnosis": "Osteoarthritis of knee (Grade II)",
+   "medicines": [
+    {
+     "medicine": "Paracetamol 650 mg",
+     "dosage": "1 tablet",
+     "frequency": "Three times daily",
+     "duration": "10 days",
+     "instructions": "After meals"
+    },
+    {
+     "medicine": "Glucosamine + Chondroitin",
+     "dosage": "1 tablet",
+     "frequency": "Once daily",
+     "duration": "3 months",
+     "instructions": ""
+    }
+   ],
+   "advice": "Drink plenty of water, 30 minutes of walking daily.",
+   "createdAt": "2026-09-17T12:30:00"
+  },
+  {
+   "id": "RX-7015",
+   "code": "RX-7015",
+   "patientId": "PAT-1002",
+   "doctorId": "DOC-06",
+   "appointmentId": "APT-20017",
+   "date": "2026-09-19",
+   "diagnosis": "Chronic plaque psoriasis",
+   "medicines": [
+    {
+     "medicine": "Clobetasol 0.05% cream",
+     "dosage": "Thin layer",
+     "frequency": "Twice daily",
+     "duration": "2 weeks",
+     "instructions": "Not on face"
+    },
+    {
+     "medicine": "Liquid paraffin emollient",
+     "dosage": "Apply liberally",
+     "frequency": "Three times daily",
+     "duration": "1 month",
+     "instructions": "After bath"
+    }
+   ],
+   "advice": "Review with reports on follow-up date.",
+   "createdAt": "2026-09-19T12:30:00"
+  },
+  {
+   "id": "RX-7016",
+   "code": "RX-7016",
+   "patientId": "PAT-1011",
+   "doctorId": "DOC-01",
+   "appointmentId": "APT-20019",
+   "date": "2026-09-23",
+   "diagnosis": "Paroxysmal atrial fibrillation",
+   "medicines": [
+    {
+     "medicine": "Diltiazem 30 mg",
+     "dosage": "1 tablet",
+     "frequency": "Three times daily",
+     "duration": "1 month",
+     "instructions": "Report if pulse < 55"
+    }
+   ],
+   "advice": "Drink plenty of water, 30 minutes of walking daily.",
+   "createdAt": "2026-09-23T12:30:00"
+  },
+  {
+   "id": "RX-7017",
+   "code": "RX-7017",
+   "patientId": "PAT-1014",
+   "doctorId": "DOC-05",
+   "appointmentId": "APT-20020",
+   "date": "2026-09-25",
+   "diagnosis": "Polycystic ovary syndrome (PCOS)",
+   "medicines": [
+    {
+     "medicine": "Metformin 500 mg",
+     "dosage": "1 tablet",
+     "frequency": "Twice daily",
+     "duration": "3 months",
+     "instructions": "With meals"
+    },
+    {
+     "medicine": "Folic acid 5 mg",
+     "dosage": "1 tablet",
+     "frequency": "Once daily",
+     "duration": "3 months",
+     "instructions": ""
+    }
+   ],
+   "advice": "Review with reports on follow-up date.",
+   "createdAt": "2026-09-25T12:30:00"
+  },
+  {
+   "id": "RX-7018",
+   "code": "RX-7018",
+   "patientId": "PAT-1018",
+   "doctorId": "DOC-07",
+   "appointmentId": "APT-20021",
+   "date": "2026-09-27",
+   "diagnosis": "Chronic rhinosinusitis",
+   "medicines": [
+    {
+     "medicine": "Fluticasone nasal spray",
+     "dosage": "2 puffs each nostril",
+     "frequency": "Once daily",
+     "duration": "1 month",
+     "instructions": "Aim away from septum"
+    },
+    {
+     "medicine": "Levocetirizine 5 mg",
+     "dosage": "1 tablet",
+     "frequency": "Once daily (night)",
+     "duration": "10 days",
+     "instructions": "May cause drowsiness"
+    }
+   ],
+   "advice": "Drink plenty of water, 30 minutes of walking daily.",
+   "createdAt": "2026-09-27T12:30:00"
+  },
+  {
+   "id": "RX-7019",
+   "code": "RX-7019",
+   "patientId": "PAT-1021",
+   "doctorId": "DOC-04",
+   "appointmentId": "APT-20022",
+   "date": "2026-09-28",
+   "diagnosis": "Acute viral upper respiratory infection",
+   "medicines": [
+    {
+     "medicine": "Paracetamol syrup 250 mg/5 ml",
+     "dosage": "5 ml",
+     "frequency": "Every 6 hours if fever",
+     "duration": "3 days",
+     "instructions": "Max 4 doses/day"
+    },
+    {
+     "medicine": "Saline nasal drops",
+     "dosage": "2 drops each nostril",
+     "frequency": "Three times daily",
+     "duration": "5 days",
+     "instructions": ""
+    }
+   ],
+   "advice": "Review with reports on follow-up date.",
+   "createdAt": "2026-09-28T12:30:00"
+  },
+  {
+   "id": "RX-7020",
+   "code": "RX-7020",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-13",
+   "appointmentId": "APT-20023",
+   "date": "2026-09-29",
+   "diagnosis": "Paroxysmal atrial fibrillation",
+   "medicines": [
+    {
+     "medicine": "Diltiazem 30 mg",
+     "dosage": "1 tablet",
+     "frequency": "Three times daily",
+     "duration": "1 month",
+     "instructions": "Report if pulse < 55"
+    }
+   ],
+   "advice": "Drink plenty of water, 30 minutes of walking daily.",
+   "createdAt": "2026-09-29T12:30:00"
+  }
+ ],
+ "labReports": [
+  {
+   "id": "LAB-3001",
+   "code": "LAB-3001",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-01",
+   "departmentId": "DEP-01",
+   "testName": "Lipid Profile",
+   "testDate": "2026-08-03",
+   "result": "LDL 162 mg/dL",
+   "referenceRange": "< 100 mg/dL",
+   "flag": "High",
+   "status": "Completed",
+   "charge": 900,
+   "createdAt": "2026-08-03T13:00:00"
+  },
+  {
+   "id": "LAB-3002",
+   "code": "LAB-3002",
+   "patientId": "PAT-1003",
+   "doctorId": "DOC-14",
+   "departmentId": "DEP-08",
+   "testName": "Dengue NS1 Antigen + Platelets",
+   "testDate": "2026-08-06",
+   "result": "NS1 Negative; Platelets 1.9 lakh/µL",
+   "referenceRange": "Negative; 1.5 – 4.5 lakh/µL",
+   "flag": "Normal",
+   "status": "Completed",
+   "charge": 1100,
+   "createdAt": "2026-08-06T13:00:00"
+  },
+  {
+   "id": "LAB-3003",
+   "code": "LAB-3003",
+   "patientId": "PAT-1007",
+   "doctorId": "DOC-01",
+   "departmentId": "DEP-01",
+   "testName": "Lipid Profile",
+   "testDate": "2026-08-09",
+   "result": "LDL 162 mg/dL",
+   "referenceRange": "< 100 mg/dL",
+   "flag": "High",
+   "status": "Completed",
+   "charge": 900,
+   "createdAt": "2026-08-09T13:00:00"
+  },
+  {
+   "id": "LAB-3004",
+   "code": "LAB-3004",
+   "patientId": "PAT-1004",
+   "doctorId": "DOC-07",
+   "departmentId": "DEP-07",
+   "testName": "Absolute Eosinophil Count",
+   "testDate": "2026-08-15",
+   "result": "620 /µL",
+   "referenceRange": "40 – 440 /µL",
+   "flag": "High",
+   "status": "Completed",
+   "charge": 300,
+   "createdAt": "2026-08-15T13:00:00"
+  },
+  {
+   "id": "LAB-3005",
+   "code": "LAB-3005",
+   "patientId": "PAT-1012",
+   "doctorId": "DOC-05",
+   "departmentId": "DEP-05",
+   "testName": "Ultrasound Pelvis",
+   "testDate": "2026-08-18",
+   "result": "Bilateral polycystic ovaries",
+   "referenceRange": "Normal ovarian morphology",
+   "flag": "High",
+   "status": "Completed",
+   "charge": 1800,
+   "createdAt": "2026-08-18T13:00:00"
+  },
+  {
+   "id": "LAB-3006",
+   "code": "LAB-3006",
+   "patientId": "PAT-1013",
+   "doctorId": "DOC-08",
+   "departmentId": "DEP-08",
+   "testName": "Dengue NS1 Antigen + Platelets",
+   "testDate": "2026-08-21",
+   "result": "NS1 Negative; Platelets 1.9 lakh/µL",
+   "referenceRange": "Negative; 1.5 – 4.5 lakh/µL",
+   "flag": "Normal",
+   "status": "Completed",
+   "charge": 1100,
+   "createdAt": "2026-08-21T13:00:00"
+  },
+  {
+   "id": "LAB-3007",
+   "code": "LAB-3007",
+   "patientId": "PAT-1008",
+   "doctorId": "DOC-04",
+   "departmentId": "DEP-04",
+   "testName": "Complete Blood Count",
+   "testDate": "2026-08-24",
+   "result": "WBC 7,800 /µL",
+   "referenceRange": "5,000 – 13,000 /µL",
+   "flag": "Normal",
+   "status": "Completed",
+   "charge": 400,
+   "createdAt": "2026-08-24T13:00:00"
+  },
+  {
+   "id": "LAB-3008",
+   "code": "LAB-3008",
+   "patientId": "PAT-1016",
+   "doctorId": "DOC-08",
+   "departmentId": "DEP-08",
+   "testName": "Dengue NS1 Antigen + Platelets",
+   "testDate": "2026-08-27",
+   "result": "NS1 Negative; Platelets 1.9 lakh/µL",
+   "referenceRange": "Negative; 1.5 – 4.5 lakh/µL",
+   "flag": "Normal",
+   "status": "Completed",
+   "charge": 1100,
+   "createdAt": "2026-08-27T13:00:00"
+  },
+  {
+   "id": "LAB-3009",
+   "code": "LAB-3009",
+   "patientId": "PAT-1006",
+   "doctorId": "DOC-06",
+   "departmentId": "DEP-06",
+   "testName": "Liver Function Test",
+   "testDate": "2026-08-30",
+   "result": "ALT 28 U/L",
+   "referenceRange": "7 – 56 U/L",
+   "flag": "Normal",
+   "status": "Completed",
+   "charge": 750,
+   "createdAt": "2026-08-30T13:00:00"
+  },
+  {
+   "id": "LAB-3010",
+   "code": "LAB-3010",
+   "patientId": "PAT-1022",
+   "doctorId": "DOC-12",
+   "departmentId": "DEP-12",
+   "testName": "Ultrasound Abdomen",
+   "testDate": "2026-09-05",
+   "result": "Multiple gall bladder calculi (largest 12 mm)",
+   "referenceRange": "No calculi",
+   "flag": "High",
+   "status": "Completed",
+   "charge": 1500,
+   "createdAt": "2026-09-05T13:00:00"
+  },
+  {
+   "id": "LAB-3011",
+   "code": "LAB-3011",
+   "patientId": "PAT-1001",
+   "doctorId": "DOC-08",
+   "departmentId": "DEP-08",
+   "testName": "HbA1c",
+   "testDate": "2026-09-08",
+   "result": "8.9 %",
+   "referenceRange": "< 5.7 %",
+   "flag": "High",
+   "status": "Completed",
+   "charge": 550,
+   "createdAt": "2026-09-08T13:00:00"
+  },
+  {
+   "id": "LAB-3012",
+   "code": "LAB-3012",
+   "patientId": "PAT-1015",
+   "doctorId": "DOC-02",
+   "departmentId": "DEP-02",
+   "testName": "MRI Brain (Plain)",
+   "testDate": "2026-09-11",
+   "result": "No structural abnormality",
+   "referenceRange": "Normal study",
+   "flag": "Normal",
+   "status": "Completed",
+   "charge": 6500,
+   "createdAt": "2026-09-11T13:00:00"
+  },
+  {
+   "id": "LAB-3013",
+   "code": "LAB-3013",
+   "patientId": "PAT-1009",
+   "doctorId": "DOC-09",
+   "departmentId": "DEP-09",
+   "testName": "Dental X-ray (IOPA)",
+   "testDate": "2026-09-14",
+   "result": "Deep caries in 46 with periapical widening",
+   "referenceRange": "No caries",
+   "flag": "High",
+   "status": "Completed",
+   "charge": 350,
+   "createdAt": "2026-09-14T13:00:00"
+  },
+  {
+   "id": "LAB-3014",
+   "code": "LAB-3014",
+   "patientId": "PAT-1017",
+   "doctorId": "DOC-03",
+   "departmentId": "DEP-03",
+   "testName": "Vitamin D (25-OH)",
+   "testDate": "2026-09-17",
+   "result": "14 ng/mL",
+   "referenceRange": "30 – 100 ng/mL",
+   "flag": "Low",
+   "status": "Completed",
+   "charge": 1400,
+   "createdAt": "2026-09-17T13:00:00"
+  },
+  {
+   "id": "LAB-3015",
+   "code": "LAB-3015",
+   "patientId": "PAT-1002",
+   "doctorId": "DOC-06",
+   "departmentId": "DEP-06",
+   "testName": "Liver Function Test",
+   "testDate": "2026-09-19",
+   "result": "ALT 28 U/L",
+   "referenceRange": "7 – 56 U/L",
+   "flag": "Normal",
+   "status": "Completed",
+   "charge": 750,
+   "createdAt": "2026-09-19T13:00:00"
+  },
+  {
+   "id": "LAB-3016",
+   "code": "LAB-3016",
+   "patientId": "PAT-1011",
+   "doctorId": "DOC-01",
+   "departmentId": "DEP-01",
+   "testName": "Thyroid Profile (TSH)",
+   "testDate": "2026-09-23",
+   "result": "—",
+   "referenceRange": "0.4 – 4.0 mIU/L",
+   "status": "Pending",
+   "charge": 650,
+   "createdAt": "2026-09-23T13:00:00"
+  }
+ ],
+ "invoices": [
+  {
+   "id": "INV-9001",
+   "code": "INV-9001",
+   "patientId": "PAT-1001",
+   "appointmentId": "APT-20001",
+   "doctorId": "DOC-01",
+   "date": "2026-08-03",
+   "consultationCharge": 1200,
+   "labCharges": 900,
+   "medicineCharges": 350,
+   "otherServices": [
+    {
+     "description": "Registration & File Charges",
+     "amount": 250
+    }
+   ],
+   "discount": 200,
+   "taxPercent": 5,
+   "amountPaid": 2625,
+   "status": "Paid",
+   "dueDate": "2026-08-18",
+   "createdAt": "2026-08-03T14:00:00"
+  },
+  {
+   "id": "INV-9002",
+   "code": "INV-9002",
+   "patientId": "PAT-1003",
+   "appointmentId": "APT-20002",
+   "doctorId": "DOC-14",
+   "date": "2026-08-06",
+   "consultationCharge": 700,
+   "labCharges": 1100,
+   "medicineCharges": 470,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 0,
+   "status": "Pending",
+   "dueDate": "2026-08-21",
+   "createdAt": "2026-08-06T14:00:00"
+  },
+  {
+   "id": "INV-9003",
+   "code": "INV-9003",
+   "patientId": "PAT-1007",
+   "appointmentId": "APT-20003",
+   "doctorId": "DOC-01",
+   "date": "2026-08-09",
+   "consultationCharge": 1200,
+   "labCharges": 900,
+   "medicineCharges": 590,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 1413,
+   "status": "Partially Paid",
+   "dueDate": "2026-08-24",
+   "createdAt": "2026-08-09T14:00:00"
+  },
+  {
+   "id": "INV-9004",
+   "code": "INV-9004",
+   "patientId": "PAT-1004",
+   "appointmentId": "APT-20005",
+   "doctorId": "DOC-07",
+   "date": "2026-08-15",
+   "consultationCharge": 750,
+   "labCharges": 300,
+   "medicineCharges": 710,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 1848,
+   "status": "Paid",
+   "dueDate": "2026-08-30",
+   "createdAt": "2026-08-15T14:00:00"
+  },
+  {
+   "id": "INV-9005",
+   "code": "INV-9005",
+   "patientId": "PAT-1012",
+   "appointmentId": "APT-20006",
+   "doctorId": "DOC-05",
+   "date": "2026-08-18",
+   "consultationCharge": 900,
+   "labCharges": 1800,
+   "medicineCharges": 830,
+   "otherServices": [
+    {
+     "description": "Registration & File Charges",
+     "amount": 250
+    }
+   ],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 3969,
+   "status": "Paid",
+   "dueDate": "2026-09-02",
+   "createdAt": "2026-08-18T14:00:00"
+  },
+  {
+   "id": "INV-9006",
+   "code": "INV-9006",
+   "patientId": "PAT-1013",
+   "appointmentId": "APT-20007",
+   "doctorId": "DOC-08",
+   "date": "2026-08-21",
+   "consultationCharge": 600,
+   "labCharges": 1100,
+   "medicineCharges": 350,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 0,
+   "status": "Refunded",
+   "dueDate": "2026-09-05",
+   "createdAt": "2026-08-21T14:00:00"
+  },
+  {
+   "id": "INV-9007",
+   "code": "INV-9007",
+   "patientId": "PAT-1008",
+   "appointmentId": "APT-20008",
+   "doctorId": "DOC-04",
+   "date": "2026-08-24",
+   "consultationCharge": 700,
+   "labCharges": 400,
+   "medicineCharges": 470,
+   "otherServices": [],
+   "discount": 200,
+   "taxPercent": 5,
+   "amountPaid": 1439,
+   "status": "Paid",
+   "dueDate": "2026-09-08",
+   "createdAt": "2026-08-24T14:00:00"
+  },
+  {
+   "id": "INV-9008",
+   "code": "INV-9008",
+   "patientId": "PAT-1016",
+   "appointmentId": "APT-20009",
+   "doctorId": "DOC-08",
+   "date": "2026-08-27",
+   "consultationCharge": 600,
+   "labCharges": 1100,
+   "medicineCharges": 590,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 1203,
+   "status": "Partially Paid",
+   "dueDate": "2026-09-11",
+   "createdAt": "2026-08-27T14:00:00"
+  },
+  {
+   "id": "INV-9009",
+   "code": "INV-9009",
+   "patientId": "PAT-1006",
+   "appointmentId": "APT-20010",
+   "doctorId": "DOC-06",
+   "date": "2026-08-30",
+   "consultationCharge": 800,
+   "labCharges": 750,
+   "medicineCharges": 710,
+   "otherServices": [
+    {
+     "description": "Registration & File Charges",
+     "amount": 250
+    }
+   ],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 2636,
+   "status": "Paid",
+   "dueDate": "2026-09-14",
+   "createdAt": "2026-08-30T14:00:00"
+  },
+  {
+   "id": "INV-9010",
+   "code": "INV-9010",
+   "patientId": "PAT-1022",
+   "appointmentId": "APT-20012",
+   "doctorId": "DOC-12",
+   "date": "2026-09-05",
+   "consultationCharge": 900,
+   "labCharges": 1500,
+   "medicineCharges": 830,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 0,
+   "status": "Pending",
+   "dueDate": "2026-09-20",
+   "createdAt": "2026-09-05T14:00:00"
+  },
+  {
+   "id": "INV-9011",
+   "code": "INV-9011",
+   "patientId": "PAT-1001",
+   "appointmentId": "APT-20013",
+   "doctorId": "DOC-08",
+   "date": "2026-09-08",
+   "consultationCharge": 600,
+   "labCharges": 550,
+   "medicineCharges": 350,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 1575,
+   "status": "Paid",
+   "dueDate": "2026-09-23",
+   "createdAt": "2026-09-08T14:00:00"
+  },
+  {
+   "id": "INV-9012",
+   "code": "INV-9012",
+   "patientId": "PAT-1015",
+   "appointmentId": "APT-20014",
+   "doctorId": "DOC-02",
+   "date": "2026-09-11",
+   "consultationCharge": 1000,
+   "labCharges": 6500,
+   "medicineCharges": 470,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 8369,
+   "status": "Paid",
+   "dueDate": "2026-09-26",
+   "createdAt": "2026-09-11T14:00:00"
+  },
+  {
+   "id": "INV-9013",
+   "code": "INV-9013",
+   "patientId": "PAT-1009",
+   "appointmentId": "APT-20015",
+   "doctorId": "DOC-09",
+   "date": "2026-09-14",
+   "consultationCharge": 500,
+   "labCharges": 350,
+   "medicineCharges": 590,
+   "otherServices": [
+    {
+     "description": "Registration & File Charges",
+     "amount": 250
+    }
+   ],
+   "discount": 200,
+   "taxPercent": 5,
+   "amountPaid": 783,
+   "status": "Partially Paid",
+   "dueDate": "2026-09-29",
+   "createdAt": "2026-09-14T14:00:00"
+  },
+  {
+   "id": "INV-9014",
+   "code": "INV-9014",
+   "patientId": "PAT-1017",
+   "appointmentId": "APT-20016",
+   "doctorId": "DOC-03",
+   "date": "2026-09-17",
+   "consultationCharge": 900,
+   "labCharges": 1400,
+   "medicineCharges": 710,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 0,
+   "status": "Pending",
+   "dueDate": "2026-10-02",
+   "createdAt": "2026-09-17T14:00:00"
+  },
+  {
+   "id": "INV-9015",
+   "code": "INV-9015",
+   "patientId": "PAT-1002",
+   "appointmentId": "APT-20017",
+   "doctorId": "DOC-06",
+   "date": "2026-09-19",
+   "consultationCharge": 800,
+   "labCharges": 750,
+   "medicineCharges": 830,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 2499,
+   "status": "Paid",
+   "dueDate": "2026-10-04",
+   "createdAt": "2026-09-19T14:00:00"
+  },
+  {
+   "id": "INV-9016",
+   "code": "INV-9016",
+   "patientId": "PAT-1011",
+   "appointmentId": "APT-20019",
+   "doctorId": "DOC-01",
+   "date": "2026-09-23",
+   "consultationCharge": 1200,
+   "labCharges": 650,
+   "medicineCharges": 350,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 2310,
+   "status": "Paid",
+   "dueDate": "2026-10-08",
+   "createdAt": "2026-09-23T14:00:00"
+  },
+  {
+   "id": "INV-9017",
+   "code": "INV-9017",
+   "patientId": "PAT-1014",
+   "appointmentId": "APT-20020",
+   "doctorId": "DOC-05",
+   "date": "2026-09-25",
+   "consultationCharge": 900,
+   "labCharges": 0,
+   "medicineCharges": 470,
+   "otherServices": [
+    {
+     "description": "Registration & File Charges",
+     "amount": 250
+    }
+   ],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 1701,
+   "status": "Paid",
+   "dueDate": "2026-10-10",
+   "createdAt": "2026-09-25T14:00:00"
+  },
+  {
+   "id": "INV-9018",
+   "code": "INV-9018",
+   "patientId": "PAT-1018",
+   "appointmentId": "APT-20021",
+   "doctorId": "DOC-07",
+   "date": "2026-09-27",
+   "consultationCharge": 750,
+   "labCharges": 0,
+   "medicineCharges": 590,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 704,
+   "status": "Partially Paid",
+   "dueDate": "2026-10-12",
+   "createdAt": "2026-09-27T14:00:00"
+  },
+  {
+   "id": "INV-9019",
+   "code": "INV-9019",
+   "patientId": "PAT-1021",
+   "appointmentId": "APT-20022",
+   "doctorId": "DOC-04",
+   "date": "2026-09-28",
+   "consultationCharge": 700,
+   "labCharges": 0,
+   "medicineCharges": 710,
+   "otherServices": [],
+   "discount": 200,
+   "taxPercent": 5,
+   "amountPaid": 1271,
+   "status": "Paid",
+   "dueDate": "2026-10-13",
+   "createdAt": "2026-09-28T14:00:00"
+  },
+  {
+   "id": "INV-9020",
+   "code": "INV-9020",
+   "patientId": "PAT-1001",
+   "appointmentId": "APT-20023",
+   "doctorId": "DOC-13",
+   "date": "2026-09-29",
+   "consultationCharge": 900,
+   "labCharges": 0,
+   "medicineCharges": 830,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 0,
+   "status": "Pending",
+   "dueDate": "2026-10-14",
+   "createdAt": "2026-09-29T14:00:00"
+  },
+  {
+   "id": "INV-9021",
+   "code": "INV-9021",
+   "patientId": "PAT-1007",
+   "appointmentId": "APT-20025",
+   "doctorId": "DOC-01",
+   "date": "2026-09-30",
+   "consultationCharge": 1200,
+   "labCharges": 0,
+   "medicineCharges": 0,
+   "otherServices": [
+    {
+     "description": "Registration & File Charges",
+     "amount": 250
+    }
+   ],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 1523,
+   "status": "Paid",
+   "dueDate": "2026-10-15",
+   "createdAt": "2026-09-30T14:00:00"
+  },
+  {
+   "id": "INV-9022",
+   "code": "INV-9022",
+   "patientId": "PAT-1012",
+   "appointmentId": "APT-20028",
+   "doctorId": "DOC-05",
+   "date": "2026-09-30",
+   "consultationCharge": 900,
+   "labCharges": 0,
+   "medicineCharges": 0,
+   "otherServices": [],
+   "discount": 0,
+   "taxPercent": 5,
+   "amountPaid": 0,
+   "status": "Pending",
+   "dueDate": "2026-10-15",
+   "createdAt": "2026-09-30T14:00:00"
+  }
+ ],
+ "payments": [
+  {
+   "id": "PAY-4001",
+   "code": "PAY-4001",
+   "invoiceId": "INV-9001",
+   "patientId": "PAT-1001",
+   "amount": 2625,
+   "method": "UPI",
+   "date": "2026-08-03",
+   "reference": "TXN8812300",
+   "type": "Payment",
+   "createdAt": "2026-08-03T15:00:00"
+  },
+  {
+   "id": "PAY-4002",
+   "code": "PAY-4002",
+   "invoiceId": "INV-9003",
+   "patientId": "PAT-1007",
+   "amount": 1413,
+   "method": "Card",
+   "date": "2026-08-09",
+   "reference": "TXN8812397",
+   "type": "Payment",
+   "createdAt": "2026-08-09T15:00:00"
+  },
+  {
+   "id": "PAY-4003",
+   "code": "PAY-4003",
+   "invoiceId": "INV-9004",
+   "patientId": "PAT-1004",
+   "amount": 1848,
+   "method": "Cash",
+   "date": "2026-08-15",
+   "reference": "TXN8812494",
+   "type": "Payment",
+   "createdAt": "2026-08-15T15:00:00"
+  },
+  {
+   "id": "PAY-4004",
+   "code": "PAY-4004",
+   "invoiceId": "INV-9005",
+   "patientId": "PAT-1012",
+   "amount": 3969,
+   "method": "Insurance",
+   "date": "2026-08-18",
+   "reference": "TXN8812591",
+   "type": "Payment",
+   "createdAt": "2026-08-18T15:00:00"
+  },
+  {
+   "id": "PAY-4005",
+   "code": "PAY-4005",
+   "invoiceId": "INV-9006",
+   "patientId": "PAT-1013",
+   "amount": 2153,
+   "method": "UPI",
+   "date": "2026-08-21",
+   "reference": "TXN8812688",
+   "type": "Payment",
+   "createdAt": "2026-08-21T15:00:00"
+  },
+  {
+   "id": "PAY-4005-R",
+   "code": "PAY-4005-R",
+   "invoiceId": "INV-9006",
+   "patientId": "PAT-1013",
+   "amount": 2153,
+   "method": "UPI",
+   "date": "2026-08-23",
+   "reference": "RFND5525",
+   "type": "Refund",
+   "createdAt": "2026-08-21T15:00:00"
+  },
+  {
+   "id": "PAY-4006",
+   "code": "PAY-4006",
+   "invoiceId": "INV-9007",
+   "patientId": "PAT-1008",
+   "amount": 1439,
+   "method": "Net Banking",
+   "date": "2026-08-24",
+   "reference": "TXN8812785",
+   "type": "Payment",
+   "createdAt": "2026-08-24T15:00:00"
+  },
+  {
+   "id": "PAY-4007",
+   "code": "PAY-4007",
+   "invoiceId": "INV-9008",
+   "patientId": "PAT-1016",
+   "amount": 1203,
+   "method": "UPI",
+   "date": "2026-08-27",
+   "reference": "TXN8812882",
+   "type": "Payment",
+   "createdAt": "2026-08-27T15:00:00"
+  },
+  {
+   "id": "PAY-4008",
+   "code": "PAY-4008",
+   "invoiceId": "INV-9009",
+   "patientId": "PAT-1006",
+   "amount": 2636,
+   "method": "Card",
+   "date": "2026-08-30",
+   "reference": "TXN8812979",
+   "type": "Payment",
+   "createdAt": "2026-08-30T15:00:00"
+  },
+  {
+   "id": "PAY-4009",
+   "code": "PAY-4009",
+   "invoiceId": "INV-9011",
+   "patientId": "PAT-1001",
+   "amount": 1575,
+   "method": "Cash",
+   "date": "2026-09-08",
+   "reference": "TXN8813076",
+   "type": "Payment",
+   "createdAt": "2026-09-08T15:00:00"
+  },
+  {
+   "id": "PAY-4010",
+   "code": "PAY-4010",
+   "invoiceId": "INV-9012",
+   "patientId": "PAT-1015",
+   "amount": 8369,
+   "method": "Insurance",
+   "date": "2026-09-11",
+   "reference": "TXN8813173",
+   "type": "Payment",
+   "createdAt": "2026-09-11T15:00:00"
+  },
+  {
+   "id": "PAY-4011",
+   "code": "PAY-4011",
+   "invoiceId": "INV-9013",
+   "patientId": "PAT-1009",
+   "amount": 783,
+   "method": "UPI",
+   "date": "2026-09-14",
+   "reference": "TXN8813270",
+   "type": "Payment",
+   "createdAt": "2026-09-14T15:00:00"
+  },
+  {
+   "id": "PAY-4012",
+   "code": "PAY-4012",
+   "invoiceId": "INV-9015",
+   "patientId": "PAT-1002",
+   "amount": 2499,
+   "method": "Net Banking",
+   "date": "2026-09-19",
+   "reference": "TXN8813367",
+   "type": "Payment",
+   "createdAt": "2026-09-19T15:00:00"
+  },
+  {
+   "id": "PAY-4013",
+   "code": "PAY-4013",
+   "invoiceId": "INV-9016",
+   "patientId": "PAT-1011",
+   "amount": 2310,
+   "method": "UPI",
+   "date": "2026-09-23",
+   "reference": "TXN8813464",
+   "type": "Payment",
+   "createdAt": "2026-09-23T15:00:00"
+  },
+  {
+   "id": "PAY-4014",
+   "code": "PAY-4014",
+   "invoiceId": "INV-9017",
+   "patientId": "PAT-1014",
+   "amount": 1701,
+   "method": "Card",
+   "date": "2026-09-25",
+   "reference": "TXN8813561",
+   "type": "Payment",
+   "createdAt": "2026-09-25T15:00:00"
+  },
+  {
+   "id": "PAY-4015",
+   "code": "PAY-4015",
+   "invoiceId": "INV-9018",
+   "patientId": "PAT-1018",
+   "amount": 704,
+   "method": "Cash",
+   "date": "2026-09-27",
+   "reference": "TXN8813658",
+   "type": "Payment",
+   "createdAt": "2026-09-27T15:00:00"
+  },
+  {
+   "id": "PAY-4016",
+   "code": "PAY-4016",
+   "invoiceId": "INV-9019",
+   "patientId": "PAT-1021",
+   "amount": 1271,
+   "method": "Insurance",
+   "date": "2026-09-28",
+   "reference": "TXN8813755",
+   "type": "Payment",
+   "createdAt": "2026-09-28T15:00:00"
+  },
+  {
+   "id": "PAY-4017",
+   "code": "PAY-4017",
+   "invoiceId": "INV-9021",
+   "patientId": "PAT-1007",
+   "amount": 1523,
+   "method": "UPI",
+   "date": "2026-09-30",
+   "reference": "TXN8813852",
+   "type": "Payment",
+   "createdAt": "2026-09-30T15:00:00"
+  }
+ ],
+ "staff": [
+  {
+   "id": "STF-601",
+   "name": "Ritika Sharma",
+   "role": "Receptionist",
+   "shift": "Morning",
+   "phone": "+91 9711820000",
+   "email": "ritika.sharma@hospozone.in",
+   "joinedOn": "2024-04-13",
+   "status": "Active",
+   "createdAt": "2024-04-13T09:30:00"
+  },
+  {
+   "id": "STF-602",
+   "name": "Aman Tiwari",
+   "role": "Receptionist",
+   "shift": "Evening",
+   "phone": "+91 9711823413",
+   "email": "aman.tiwari@hospozone.in",
+   "joinedOn": "2024-06-07",
+   "status": "Active",
+   "createdAt": "2024-06-07T09:30:00"
+  },
+  {
+   "id": "STF-603",
+   "name": "Sister Mary Thomas",
+   "role": "Nurse",
+   "departmentId": "DEP-01",
+   "shift": "Morning",
+   "phone": "+91 9711826826",
+   "email": "mary.thomas@hospozone.in",
+   "joinedOn": "2024-08-01",
+   "status": "Active",
+   "createdAt": "2024-08-01T09:30:00"
+  },
+  {
+   "id": "STF-604",
+   "name": "Pooja Yadav",
+   "role": "Nurse",
+   "departmentId": "DEP-04",
+   "shift": "Night",
+   "phone": "+91 9711830239",
+   "email": "pooja.yadav@hospozone.in",
+   "joinedOn": "2024-09-25",
+   "status": "Active",
+   "createdAt": "2024-09-25T09:30:00"
+  },
+  {
+   "id": "STF-605",
+   "name": "Rahul Pandey",
+   "role": "Nurse",
+   "departmentId": "DEP-11",
+   "shift": "Night",
+   "phone": "+91 9711833652",
+   "email": "rahul.pandey@hospozone.in",
+   "joinedOn": "2024-11-19",
+   "status": "Active",
+   "createdAt": "2024-11-19T09:30:00"
+  },
+  {
+   "id": "STF-606",
+   "name": "Deepak Kumar",
+   "role": "Lab Technician",
+   "departmentId": "DEP-10",
+   "shift": "General",
+   "phone": "+91 9711837065",
+   "email": "deepak.kumar@hospozone.in",
+   "joinedOn": "2025-01-13",
+   "status": "Active",
+   "createdAt": "2025-01-13T09:30:00"
+  },
+  {
+   "id": "STF-607",
+   "name": "Sunita Rawat",
+   "role": "Lab Technician",
+   "departmentId": "DEP-08",
+   "shift": "Morning",
+   "phone": "+91 9711840478",
+   "email": "sunita.rawat@hospozone.in",
+   "joinedOn": "2025-03-09",
+   "status": "Active",
+   "createdAt": "2025-03-09T09:30:00"
+  },
+  {
+   "id": "STF-608",
+   "name": "Mohit Arora",
+   "role": "Pharmacist",
+   "shift": "General",
+   "phone": "+91 9711843891",
+   "email": "mohit.arora@hospozone.in",
+   "joinedOn": "2025-05-03",
+   "status": "Active",
+   "createdAt": "2025-05-03T09:30:00"
+  },
+  {
+   "id": "STF-609",
+   "name": "Farzana Begum",
+   "role": "Pharmacist",
+   "shift": "Evening",
+   "phone": "+91 9711847304",
+   "email": "farzana.begum@hospozone.in",
+   "joinedOn": "2025-06-27",
+   "status": "Active",
+   "createdAt": "2025-06-27T09:30:00"
+  },
+  {
+   "id": "STF-610",
+   "name": "Kunal Bhatia",
+   "role": "Administrator",
+   "shift": "General",
+   "phone": "+91 9711850717",
+   "email": "kunal.bhatia@hospozone.in",
+   "joinedOn": "2025-08-21",
+   "status": "Active",
+   "createdAt": "2025-08-21T09:30:00"
+  },
+  {
+   "id": "STF-611",
+   "name": "Ramesh Lal",
+   "role": "Support Staff",
+   "departmentId": "DEP-11",
+   "shift": "Night",
+   "phone": "+91 9711854130",
+   "email": "ramesh.lal@hospozone.in",
+   "joinedOn": "2025-10-15",
+   "status": "Inactive",
+   "createdAt": "2025-10-15T09:30:00"
+  },
+  {
+   "id": "STF-612",
+   "name": "Geeta Devi",
+   "role": "Nurse",
+   "departmentId": "DEP-05",
+   "shift": "Evening",
+   "phone": "+91 9711857543",
+   "email": "geeta.devi@hospozone.in",
+   "joinedOn": "2025-12-09",
+   "status": "Active",
+   "createdAt": "2025-12-09T09:30:00"
+  }
+ ],
+ "notifications": [
+  {
+   "id": "N-1",
+   "type": "appointment_new",
+   "title": "New appointment request",
+   "message": "Kiara Kapoor requested Dr. Farah Khan today at 17:00.",
+   "audience": {
+    "roles": [
+     "admin",
+     "receptionist"
+    ]
+   },
+   "link": "/admin/appointments",
+   "readBy": [],
+   "createdAt": "2026-09-30T05:27:10.147Z"
+  },
+  {
+   "id": "N-2",
+   "type": "payment_received",
+   "title": "Payment received",
+   "message": "UPI payment received against INV-9004.",
+   "audience": {
+    "roles": [
+     "admin",
+     "receptionist"
+    ]
+   },
+   "link": "/admin/billing",
+   "readBy": [],
+   "createdAt": "2026-09-30T03:52:10.147Z"
+  },
+  {
+   "id": "N-3",
+   "type": "lab_ready",
+   "title": "Lab report ready",
+   "message": "HbA1c report for Vihaan Gupta is now available.",
+   "audience": {
+    "roles": [
+     "admin",
+     "doctor"
+    ],
+    "doctorId": "DOC-14"
+   },
+   "link": "/admin/lab-reports",
+   "readBy": [],
+   "createdAt": "2026-09-30T00:52:10.147Z"
+  },
+  {
+   "id": "N-4",
+   "type": "appointment_cancelled",
+   "title": "Appointment cancelled",
+   "message": "A follow-up for next week was cancelled by the patient.",
+   "audience": {
+    "roles": [
+     "admin",
+     "receptionist"
+    ]
+   },
+   "link": "/admin/appointments",
+   "readBy": [],
+   "createdAt": "2026-09-29T09:52:10.147Z"
+  },
+  {
+   "id": "N-5",
+   "type": "system",
+   "title": "Scheduled maintenance",
+   "message": "The billing module will be briefly unavailable Sunday 2:00–2:30 AM.",
+   "audience": {
+    "roles": [
+     "admin",
+     "doctor",
+     "receptionist"
+    ]
+   },
+   "readBy": [],
+   "createdAt": "2026-09-28T23:52:10.147Z"
+  },
+  {
+   "id": "N-6",
+   "type": "appointment_confirmed",
+   "title": "Appointment confirmed",
+   "message": "Your appointment with Dr. Arjun Mehta on 2026-10-02 at 09:00 is confirmed.",
+   "audience": {
+    "patientId": "PAT-1001"
+   },
+   "link": "/patient/appointments",
+   "readBy": [],
+   "createdAt": "2026-09-30T02:52:10.147Z"
+  },
+  {
+   "id": "N-7",
+   "type": "prescription_created",
+   "title": "New prescription",
+   "message": "Dr. Aditya Rao added a prescription after your recent visit.",
+   "audience": {
+    "patientId": "PAT-1001"
+   },
+   "link": "/patient/prescriptions",
+   "readBy": [],
+   "createdAt": "2026-09-29T03:52:10.147Z"
+  },
+  {
+   "id": "N-8",
+   "type": "lab_ready",
+   "title": "Lab report available",
+   "message": "Your Lipid Profile report is ready to view.",
+   "audience": {
+    "patientId": "PAT-1001"
+   },
+   "link": "/patient/lab-reports",
+   "readBy": [
+    "U-PAT-1001"
+   ],
+   "createdAt": "2026-09-24T05:52:10.147Z"
+  },
+  {
+   "id": "N-9",
+   "type": "appointment_new",
+   "title": "New patient assigned",
+   "message": "Aarav Sharma is booked with you in 2 days.",
+   "audience": {
+    "doctorId": "DOC-01"
+   },
+   "link": "/admin/appointments",
+   "readBy": [],
+   "createdAt": "2026-09-30T01:52:10.147Z"
+  },
+  {
+   "id": "N-10",
+   "type": "system",
+   "title": "Health check package",
+   "message": "Your annual preventive health check is due this month. Book a slot at your convenience.",
+   "audience": {
+    "patientId": "PAT-1001"
+   },
+   "link": "/book-appointment",
+   "readBy": [],
+   "createdAt": "2026-09-27T05:52:10.147Z"
+  },
+  {
+   "id": "N-11",
+   "type": "payment_received",
+   "title": "Refund processed",
+   "message": "Refund issued for INV-9006 as per cancellation policy.",
+   "audience": {
+    "roles": [
+     "admin"
+    ]
+   },
+   "link": "/admin/payments",
+   "readBy": [],
+   "createdAt": "2026-09-28T03:52:10.147Z"
+  }
+ ]
+}
